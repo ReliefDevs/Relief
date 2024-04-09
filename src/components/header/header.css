@@ -1,0 +1,12 @@
+section {
+    background-image: url('Frame6ss.png');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 728px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
