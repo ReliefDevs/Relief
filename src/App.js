@@ -1,5 +1,4 @@
-import React from 'react';
-import { LanguageProvider } from './language'
+import logo from './logo.svg';
 import './App.css';
 import NavBar from './components/navbar/NavBar';
 import Info from './components/seccion/Info';
@@ -7,10 +6,10 @@ import Info from './components/seccion/Info';
 
 const App = () => {
   return (
-    <LanguageProvider>
-      <NavBar />
-      <Info/>
-    </LanguageProvider>
+    <div className="App">
+      <header className="App-header">
+      </header>
+    </div>
   );
 };
 
