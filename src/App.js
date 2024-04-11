@@ -1,16 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
-import NavBar from './components/navbar/NavBar';
+import Header from './components/header/Header';
 import Info from './components/seccion/Info';
+import { LanguageProvider } from './language';
 
 
 const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-      </header>
-    </div>
+      <LanguageProvider>
+        <Header/>
+        <Info/>
+      </LanguageProvider>
   );
 };
-
 export default App;

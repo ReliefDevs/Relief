@@ -23,7 +23,7 @@ h3 {
     line-height: 0.6;
 }
 
-section {
+.header {
     background-image: url('Frame6ss.png');
     background-position: center center;
     background-size: cover;

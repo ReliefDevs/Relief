@@ -9,12 +9,12 @@
 
 @media (min-width: 1440px) {
 .nav-container{
+    margin-top: 2vh ;
     display: flex;
     justify-content: space-between;
     gap: 70px;
     padding-left: 50px;
     padding-right: 50px;
-    position: sticky;
     top: 0;
     background: transparent;
     align-items: center;
@@ -30,7 +30,7 @@ ul{
 
 a{  
     
-    color: #000000;
+    color: #fff;
     font-family: "Roboto Condensed";
     font-size: 24px;
     font-style: normal;
@@ -42,7 +42,7 @@ a{
 .nav-name{
     display: flex;
     align-items: center;
-    color: black;
+    color: #fff;
     width: 117px;
     height: 62px;
     flex-shrink: 0;
