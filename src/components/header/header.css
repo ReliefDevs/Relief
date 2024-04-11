@@ -1,12 +1,110 @@
+
+h3 {
+    color: #FFFCE5;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+
+.header-layout-left h1 {
+    letter-spacing: -5px;
+    margin-left: 164px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    /* font-family: "Roboto flex"; */
+    color: #FFFCE5;
+    font-size: 150px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 0.6;
+}
+
 section {
     background-image: url('Frame6ss.png');
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
+    width: 1440px;
     height: 728px;
+    flex-shrink: 0;
+    opacity: 0.9;
+    mix-blend-mode: overlay;
 }
+
 
 * {
     box-sizing: border-box;
     margin: 0;
+}
+
+.header {
+    height: 728px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-h3 {
+    color: #FFFCE5;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    text-align: center;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 208px;
+}
+
+.header-layout {
+    display: flex;
+}
+
+.header-layout-left, .header-layout-right {
+    width: 50%;
+}
+
+.header-layout-left span{
+    letter-spacing: 3px;
+    color: #FFFCE5;
+    font-family: "Kite One";
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.header-layout-left {
+    flex-shrink: 0;
+}
+
+.header-layout-left-legend {
+    width: auto;
+    height: 42px;
+    color: #FFFAD1;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: normal;
+    margin-left: 51px;
+    margin-top: 160px;
+    text-align: left;
+}
+
+.header-layout-right {
+    color: #FFFCE5;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    margin-top: 340px;
+    margin-left: 133px;
+    text-wrap: pretty;
+    height: 140px;
 }

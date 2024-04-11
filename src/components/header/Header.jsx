@@ -9,8 +9,8 @@ export function Header(){
             </div>
             <div className="header-layout">
                 <div className="header-layout-left">
-                    <h1>Somos<br />Relieft;</h1>
-                    <p>Comienza tu proyecto ahora!</p>
+                    <h1>Somos<br /><span>Relief;</span></h1>
+                    <p className="header-layout-left-legend">Comienza tu proyecto ahora!</p>
                 </div>
                 <div className="header-layout-right">
                     Una sensación de alivio, potenciando los objetivos comerciales a través de la <strong>tecnología</strong>, la <strong>innovación</strong> y <strong>seriedad</strong>
