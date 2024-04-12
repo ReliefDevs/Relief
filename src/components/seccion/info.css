@@ -8,7 +8,6 @@
     justify-content: center;
     align-items: center;
     background: #FFFDEF;
-    padding-bottom: 5vh;
     
    
    
@@ -36,20 +35,27 @@
 .seccion-info-en{
     color: #005C57;
     font-family: "Roboto Flex";
-    font-size: 50px;
+    font-size: 60px;
     font-style: normal;
     font-weight: 400;
     line-height: 98.438%; /* 157.5px */
 }
 
 .seccion-proyects{
+    width: 328px;
+    height: 100px;
     display: flex;
+    padding-top: 2vh;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     flex-shrink: 0;
 }
 
 .seccion-proyects p a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     color: #005C57;
     text-decoration: none;
     font-family: "Roboto Flex";
@@ -58,9 +64,14 @@
     font-weight: 300;
     line-height: 98.438%; /* 17.719px */
 }
-.seccion-proyects p a svg{
-    padding-top: 0.5vh;
+
+.arrow{
+    width: 35px;
+    height: 35px;
+    flex-shrink: 0;
+    padding-top: 1vh;
 }
+
 
 
 @media (min-width: 1440px) {
@@ -68,10 +79,11 @@
     display: flex;
     height:auto;
     padding-left:10vh;
+    padding-bottom: 8vh;
     align-items: start;
 }
 .seccion-info-es{
-    font-size: 128px;
+    font-size: 140px;   
 }
 
 .seccion-info-en{
@@ -88,8 +100,15 @@
 
 .seccion-proyects p a{
     display: flex;
+    flex-direction: row;
     align-items: center;
     font-size: 36px;
+}
+
+.arrow{
+    width: 48px;
+    height: 48px;
+    padding-top: 0.6vh;
 }
 
 
@@ -100,6 +119,8 @@
     width: auto;
     height: auto;
 };
+
+
 
 
 }

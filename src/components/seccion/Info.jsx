@@ -4,7 +4,7 @@ import "../../language";
 import "./info.css"
 
 const Info = ()=>{
-    const { language, resources, changeLanguage } = useLanguage();
+    const { language, resources} = useLanguage();
     const {info, proyects,spanInfo , spanInfo2, spanInfo3} = resources[language];
 
     return(
