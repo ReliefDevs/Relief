@@ -5,10 +5,10 @@ import { LanguageProvider } from './language';
 
 const App = () => {
   return (
-      <LanguageProvider>
-        <Header/>
-        <Info/>
-      </LanguageProvider>
+    <LanguageProvider>
+      <Header/>
+      <Info/>
+    </LanguageProvider>
   );
 };
 export default App;
