@@ -2,16 +2,12 @@
 
 .seccion-info-container{
     display: flex;
-    min-width: 43.58vh;
     height: auto;
     flex-direction: column;
     justify-content: center;
     align-items: start;
     padding-left: 3vh;
-    background: #FFFDEF;
-    
-   
-   
+    background: #FFFDEF;  
 }
 
 .seccion-info{
@@ -25,7 +21,7 @@
     margin: 0;
 }
 
-.seccion-info-es{
+.seccion-info-es {
     color: #005C57;
     padding-top: 10vh;   
     font-family: "Roboto Flex";
@@ -35,13 +31,16 @@
     line-height: 98.438%; 
 }
 
-.seccion-info-en{
+.seccion-info-en {
     color: #005C57;
     font-family: "Roboto Flex";
     font-size: 3.75rem;
     font-style: normal;
     font-weight: 400;
     line-height: 98.438%; /* 157.5px */
+    padding-top: 10vh;   
+    padding-left: 8vh;
+    align-items: start;
 }
 
 .seccion-proyects{  
@@ -90,6 +89,7 @@
 }
 
 .seccion-info-en{
+    padding-left: 0;
     font-size: 10rem;
     text-wrap: balance;
 }
@@ -123,7 +123,7 @@
     flex-direction: row;
     width: auto;
     height: auto;
-};
+}
 
 
 }
