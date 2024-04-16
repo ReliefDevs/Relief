@@ -17,7 +17,7 @@ const Header =() =>{
             <div className="header-layout">
                 <div className="header-layout-left">
                     <h1>{are}<br /><span>Relief;</span></h1>
-                    <p className="header-layout-left-legend">{legend}</p>
+                    
                 </div>
                 <div className="header-layout-right">
                    {layoutRigth} <strong>{technology}</strong>{the}<strong>{innovation}</strong> {and} <strong>{reliability}</strong>
@@ -26,7 +26,7 @@ const Header =() =>{
             <div className="header-layout-right">
                 Una sensación de alivio, potenciando los objetivos comerciales a través de la <strong>tecnología</strong>, la <strong>innovación</strong> y <strong>seriedad</strong>
             </div>
-            <p className="header-layout-left-legend">Comienza tu proyecto ahora!</p>
+            <p className="header-layout-left-legend">{legend}</p>
         </section>
     )
 }
