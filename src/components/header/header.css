@@ -1,3 +1,8 @@
+* {
+    box-sizing: border-box;
+    caret-color: transparent;
+    margin: 0;
+}
 
 h3 {
     color: #FFFCE5;
@@ -11,7 +16,7 @@ h3 {
 
 .header-layout-left h1 {
     letter-spacing: -5px;
-    margin-left: 164px;
+    margin-left: 140px;
     display: flex;
     align-items: flex-start;
     flex-direction: column;
@@ -23,30 +28,19 @@ h3 {
     line-height: 0.6;
 }
 
-section {
+.header {
     background-image: url('Frame6ss.png');
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 1440px;
-    height: 728px;
-    flex-shrink: 0;
     opacity: 0.9;
     mix-blend-mode: overlay;
-}
-
-
-* {
-    box-sizing: border-box;
-    margin: 0;
-}
-
-.header {
-    height: 728px;
     width: auto;
     display: flex;
     flex-direction: column;
 }
+
+
 
 .header-h3 {
     color: #FFFCE5;
@@ -92,7 +86,7 @@ section {
     font-weight: 300;
     line-height: normal;
     margin-left: 51px;
-    margin-top: 160px;
+    padding-bottom: 80px;
     text-align: left;
 }
 
@@ -103,8 +97,30 @@ section {
     font-weight: 400;
     line-height: normal;
     text-align: left;
-    margin-top: 340px;
-    margin-left: 133px;
-    text-wrap: pretty;
+    padding-left: 60%;
+    text-wrap: balance;
     height: 140px;
+    width: 100%;
 }
+
+/* MOBILE */
+
+@media (max-width: 880px) {
+    .header {
+        min-width: 520px;
+    }
+
+    .header-layout-left h1 {
+        margin-left: 30px;
+        padding-bottom: 40px;
+    }
+
+    .header-layout-right {
+        padding-right: 20px;
+        height: 60vh;
+    }
+
+    .header-layout-left-legend {
+        margin-left: 20px;
+    }
+} 

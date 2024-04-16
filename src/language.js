@@ -1,6 +1,9 @@
+//Language.js
+
 import React, { createContext, useContext, useState } from 'react';
 import es from './es.json';
 import en from './en.json';
+
 
 const LanguageContext = createContext();
 

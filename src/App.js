@@ -1,14 +1,14 @@
 import Header from './components/header/Header';
-import './App.css';
-import NavBar from './components/navbar/NavBar';
 import Info from './components/seccion/Info';
+import { LanguageProvider } from './language';
 
 
 const App = () => {
   return (
-    <div className="App">
+    <LanguageProvider>
       <Header/>
-    </div>
+      <Info/>
+    </LanguageProvider>
   );
 };
 
