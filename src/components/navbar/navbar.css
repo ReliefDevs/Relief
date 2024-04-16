@@ -1,34 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Kite+One&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
-.nav-container {
-    display: none;
-}
-
-
-
-@media (min-width: 1440px) {
-.nav-container{
-    margin-top: 2vh ;
+.nav-list {
     display: flex;
-    justify-content: space-between;
-    gap: 70px;
-    padding-left: 50px;
-    padding-right: 50px;
-    top: 0;
-    background: transparent;
-    align-items: center;
+    list-style: none;
+    gap: 140px;
 }
 
-    .nav-list {
-        display: flex;
-        list-style: none;
-        width: 100%;
-        justify-content: right;
-        align-items: center;
-        gap: 140px;
-    }
-
+.language .img-language {
+    width: 40px;
+    height: 40px;
+}
 a{  
     
     color: #fff;
@@ -39,6 +21,44 @@ a{
     line-height: 98.438%;
     text-decoration: none;
 }
+
+.language {
+    border-radius: 10px;
+    background: transparent;
+    border: none;
+    border-style: none;
+    font-family: "Kite One";
+    font-style: normal;
+    font-weight: 400;
+    cursor: pointer;    
+}
+
+.nav-name{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    flex-shrink: 0;
+    font-family: "Kite One";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+/*@media (min-width: 440px) {
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+    padding-left: 50px;
+    padding-right: 50px;
+    top: 0;
+    background: transparent;
+    align-items: center;
+}
+
+
+
+
 
 .nav-name{
     display: flex;
@@ -54,24 +74,9 @@ a{
     line-height: normal;
 }
 
-    .language img {
-        width: 40px;
-        height: 40px;
-    }
-
-    .language {
-        border-radius: 10px;
-        background: transparent;
-        border: none;
-        border-style: none;
-        font-family: "Kite One";
-        font-size: 24px;
-        font-style: normal;
-        font-weight: 400;
-        cursor: pointer;
-
-    }
 
 
 
-}
+
+
+}*/

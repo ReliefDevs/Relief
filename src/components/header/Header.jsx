@@ -9,20 +9,9 @@ const Header =() =>{
     const { language, resources} = useLanguage();
     const {headerH3, are,legend, layoutRight, technology, innovation , reliability , and , the} = resources[language];
     return(
-        <section className="header">
+        <section className="header row m-0 d-none d-lg-block" >
             <NavBar/>
-            <div className="header-h3">
-                <h3>{headerH3}</h3>
-            </div>
-            <div className="header-layout">
-                <div className="header-layout-left">
-                    <h1>{are}<br /><span>Relief;</span></h1>
-                </div>
-            </div>
-            <div className="header-layout-right">
-                   {layoutRight} <strong>{technology}</strong>{the}<strong>{innovation}</strong> {and} <strong>{reliability}</strong>
-            </div>
-            <p className="header-layout-left-legend">{legend}</p>
+            
         </section>
     )
 }
