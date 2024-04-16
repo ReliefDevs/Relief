@@ -16,7 +16,6 @@
 .seccion-info{
     display: flex;
     width: 34vh;    
-    height: 25vh;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -26,7 +25,7 @@
 
 .seccion-info-es{
     color: #005C57;
-    padding-top: 2vh;   
+    padding-top: 10vh;   
     font-family: "Roboto Flex";
     font-size: 3.125rem;
     font-style: normal;
@@ -123,6 +122,55 @@
 };
 
 
+@media (min-width: 880px) {
+    .seccion-info-container{
+        display: flex;
+        height:auto;
+        padding-left:10vh;
+        padding-bottom: 10vh;
+        align-items: start;
+    }
+    .seccion-info-es{
+        font-size:8.75rem;
+    }
+    
+    .seccion-info-en{
+        font-size: 10rem;
+        text-wrap: balance;
+    }
+    
+    .seccion-info{
+        padding-top: 11vh;
+        width: 100%;
+        height: auto;
+        align-items: start;
+    }
+    
+    
+    
+    .seccion-proyects p a{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        font-size: 2.25rem;
+    }
+    
+    .arrow{
+        width: 5.5vh;
+        height: 5.5vh;
+        padding-top: 0.6vh;
+    }
+    
+    
+    .seccion-proyects{
+        padding-top: 5vh;
+        display: flex;
+        flex-direction: row;
+        width: auto;
+        height: auto;
+    };
+
+}
 
 
 }
