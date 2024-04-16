@@ -11,5 +11,4 @@ const App = () => {
     </LanguageProvider>
   );
 };
-
 export default App;

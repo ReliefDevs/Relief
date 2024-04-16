@@ -4,7 +4,7 @@ import "../../language";
 import "./info.css"
 
 const Info = ()=>{
-    const { language, resources } = useLanguage();
+    const { language, resources} = useLanguage();
     const {info, proyects,spanInfo , spanInfo2, spanInfo3} = resources[language];
 
     return(
@@ -12,7 +12,7 @@ const Info = ()=>{
             <div className='seccion-info'>
                 <p>
                 {language === 'en' ? <p className='seccion-info-en'>{spanInfo3}<strong >{spanInfo}</strong>{info}<strong>{spanInfo2}</strong></p> : <p className='seccion-info-es'><strong >{spanInfo}</strong>{info}<strong>{spanInfo2}</strong></p>}
-            </p>
+                </p>
             </div>
             <div className='seccion-proyects'>
                 <p>
