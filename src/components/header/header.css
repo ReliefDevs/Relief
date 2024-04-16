@@ -55,10 +55,6 @@ h3 {
 }
 
 
-.header-layout-left, .header-layout-right {
-    width: 50%;
-}
-
 .header-layout-left span{
     letter-spacing: 3px;
     color: #FFFCE5;
