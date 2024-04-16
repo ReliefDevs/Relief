@@ -55,9 +55,9 @@ h3 {
     height: 208px;
 }
 
-.header-layout {
+/* .header-layout {
     display: flex;
-}
+} */
 
 .header-layout-left, .header-layout-right {
     width: 50%;
@@ -96,11 +96,11 @@ h3 {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    text-wrap: balance;
+    height: auto;
+    width: 100%;
     text-align: left;
     padding-left: 60%;
-    text-wrap: balance;
-    height: 140px;
-    width: 100%;
 }
 
 /* MOBILE */
