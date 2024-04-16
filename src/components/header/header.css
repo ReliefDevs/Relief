@@ -20,7 +20,6 @@ h3 {
     display: flex;
     align-items: flex-start;
     flex-direction: column;
-    /* font-family: "Roboto flex"; */
     color: #FFFCE5;
     font-size: 150px;
     font-style: normal;
@@ -55,9 +54,6 @@ h3 {
     height: 208px;
 }
 
-.header-layout {
-    display: flex;
-}
 
 .header-layout-left, .header-layout-right {
     width: 50%;
@@ -96,10 +92,12 @@ h3 {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    text-align: left;
     text-wrap: balance;
-    height: 140px;
+    height: auto;
     width: 100%;
+    text-align: left;
+    padding-left: 60%;
+  
 }
 
 /* MOBILE */
