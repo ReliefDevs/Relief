@@ -46,12 +46,17 @@ li{
     font-style: italic;
     line-height: normal;
 }
-
+.legend{
+    padding: 0 0 0 2%;
+}
 .header-layout-right {
     color: #FFFCE5;
     font-style: normal;
     line-height: normal;
-  
+    padding: 0 3% 0 0;
+}
+.header-layaut-bottom{
+    padding: 0 0 2% 0;
 }
 /* 
 
