@@ -3,6 +3,7 @@
 
 .nav-list {
     display: flex;
+    width: 80%;
     list-style: none;
     gap: 140px;
 }
@@ -12,12 +13,11 @@
     height: 40px;
 }
 a{  
-    
     color: #fff;
     font-family: "Roboto Condensed";
-    font-size: 24px;
+    font-size: 100%;
     font-style: normal;
-    font-weight: 400;
+    width: 100%;
     line-height: 98.438%;
     text-decoration: none;
 }
