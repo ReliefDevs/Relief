@@ -22,10 +22,13 @@ const Header =() =>{
                 </div>
             </div>
                 <div className="row m-0">
-                    <div className="col-md-3  p-0 header-layout-right">
+                    <div className="col-12 col-md-5 order-1 d-flex justify-content-end p-0 header-layout-right">
+                        <div className=" col-4 col-md-10 m-0">
                             {layoutRight} <strong>{technology}</strong>{the}<strong>{innovation}</strong> {and} <strong>{reliability}</strong>
+                  
+                        </div>
                     </div>
-                    <div className="col-md-6  p-0">
+                    <div className="col-12 col-md-6  order-2 m-0 p-0">
                         <p className="header-layout-left-legend">{legend}</p>
                     </div>
                 </div>
