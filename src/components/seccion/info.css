@@ -3,16 +3,18 @@
 .seccion-info-container{
     display: flex;
     height: auto;
+    width:auto;
     flex-direction: column;
     justify-content: center;
-    align-items: start;
-    padding-left: 3vh;
-    background: #FFFDEF;  
+    align-items: center;
+    background: #FFFDEF; 
+    padding-left: 2vh; 
 }
 
 .seccion-info{
+    text-wrap: balance;
     display: flex;
-    width: 34vh;    
+    width: auto;    
     height: auto;
     flex-direction: column;
     justify-content: center;
@@ -22,41 +24,44 @@
 }
 
 .seccion-info-es {
+    align-items: center;
     color: #005C57;
-    padding-top: 10vh;   
+    padding-top: 6vh;
+    text-align: center;   
     font-family: "Roboto Flex";
-    font-size: 3.125rem;
+    font-size: 3rem;
     font-style: normal;
     font-weight: 400;
     line-height: 98.438%; 
 }
 
 .seccion-info-en {
+    padding-top: 6vh;
+    text-align: center;  ;
     color: #005C57;
     font-family: "Roboto Flex";
-    font-size: 3.75rem;
+    font-size: 3rem;
     font-style: normal;
     font-weight: 400;
     line-height: 98.438%; /* 157.5px */
-    padding-top: 10vh;   
-    padding-left: 8vh;
-    align-items: start;
 }
 
-.seccion-proyects{  
-    width: 45vh;
-    height: auto;
+.seccion-proyects{
+    padding-right: 2vh;
     display: flex;
-    padding-top: 2vh;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    padding-top: 2vh;
     flex-shrink: 0;
 }
 
 .seccion-proyects p a{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     color: #005C57;
     text-decoration: none;
@@ -66,6 +71,7 @@
     font-weight: 300;
     line-height: 98.438%; /* 17.719px */
 }
+
 
 .arrow{
     width: 3.5vh;
@@ -77,6 +83,8 @@
 
 
 @media (min-width: 880px) {
+
+        
 .seccion-info-container{
     display: flex;
     height:auto;
@@ -84,14 +92,23 @@
     padding-bottom: 10vh;
     align-items: start;
 }
+
+.seccion-info{
+    align-items: start;
+    text-align: start;
+}
 .seccion-info-es{
-    font-size:8.75rem;   
+    font-size:8.75rem;
+    align-items: start;   
+    text-align: start;
 }
 
 .seccion-info-en{
     padding-left: 0;
     font-size: 10rem;
     text-wrap: balance;
+    align-items: start;
+    text-align: start;
 }
 
 .seccion-info{
