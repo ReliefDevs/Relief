@@ -69,6 +69,7 @@
 
 @media (min-width: 880px) {
 .seccion-info-container{
+    min-width: 360px;
     display: flex;
     height:auto;
     padding-left:10vh;

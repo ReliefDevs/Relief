@@ -24,8 +24,7 @@ const Header =() =>{
                 <div className="row m-0 header-layaut-bottom">
                     <div className="col-12 col-md-5 order-1 order-md-2 d-flex justify-content-end header-layout-right">
                         <div className=" col-4 col-md-10 m-0">
-                            {layoutRight} <strong>{technology}</strong>{the}<strong>{innovation}</strong> {and} <strong>{reliability}</strong>
-                  
+                            {layoutRight} <strong>{technology}</strong>{the}<strong>{innovation}</strong> {and} <br /><strong>{reliability}</strong>
                         </div>
                     </div>
                     <div className="col-12 col-md-6  order-2  order-md-1 align-self-end m-0 legend">
