@@ -1,0 +1,115 @@
+
+
+.header {
+    background-image: url('Frame6ss.png');
+    background-size: cover;
+    height: 100%;
+}
+h3 {
+    color: #FFFCE5;
+    font-style: normal;
+    line-height: normal;
+    width: 80%;
+    margin: 5% 0;
+}
+
+li{
+    width: 80%;
+}
+
+
+.header-h3 {
+    color: #FFFCE5;
+    font-style: normal;
+    margin-top: 3%;
+    color: #FFFCE5;
+    font-weight: 300;
+    line-height: normal;
+    font-size: 1.5rem;
+    font-family: "Roboto Condensed";
+    
+}
+
+.header-layout-left h1 {
+    color: #FFFCE5;
+    font-size: 9.3rem;
+    line-height: 0.7;
+}
+
+.header-layout-left span{
+    font-size: 7.5rem;
+    color: #FFFCE5;
+    font-family: "Kite One";
+    font-style: normal;
+    line-height: normal;
+}
+
+.header-layout-left {
+    margin: 0px 0 15px 140px;
+}
+
+
+.header-layout-left-legend {
+    color: #FFFAD1;
+    font-style: italic;
+    line-height: normal;
+    font-family: "Roboto Condensed";
+    font-size: 2.25rem;
+    font-weight: 300;   
+    margin: 0 0 0 2%;
+}
+
+
+.legend{
+    padding: 0 0 0 2%;
+}
+
+.header-layout-right {
+    color: #FFFCE5;
+    font-style: normal;
+    line-height: normal;
+    padding: 0 3% 1% 0;
+    font-family: "Roboto Condensed";
+    font-weight: 400;
+    font-size: 1.87rem;
+}
+
+.header-layaut-bottom{
+    padding: 0 0 2% 0;
+}
+/* 
+
+
+
+
+
+
+
+
+
+/* MOBILE
+
+@media (min-width: 880px) {
+
+    h3{
+        font-weight: 100;
+    }
+    .header {
+        min-width: 360px;
+    }
+
+    .header-layout-left h1 {
+        margin-left: 30px;
+        padding-bottom: 40px;
+    }
+
+    .header-layout-right {
+        padding-right: 20px;
+        height: 60vh;
+        padding-left: 50%;
+    }
+
+    .header-layout-left-legend {
+        margin-left: 20px;
+    }
+}  */

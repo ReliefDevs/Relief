@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Kite+One&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+
+.seccion-info-container{
+    display: flex;
+    height: auto;
+    width:auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #FFFDEF; 
+    padding-left: 2vh; 
+}
+
+.seccion-info{
+    flex-shrink: 0;
+    margin: 0;
+}
+
+.seccion-info-es {
+    color: #005C57;
+    padding-top: 6vh;
+    font-family: "Roboto Flex";
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 98.438%; 
+}
+
+.seccion-info-en {
+    padding-top: 6vh;
+    color: #005C57;
+    font-family: "Roboto Flex";
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 98.438%; /* 157.5px */
+}
+
+.seccion-proyects{
+    width: 100%;
+    padding-right: 2vh;
+    padding-top: 2vh;
+    flex-shrink: 0;
+}
+
+.seccion-proyects p a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #005C57;
+    text-decoration: none;
+    font-family: "Roboto Flex";
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 98.438%; /* 17.719px */
+}
+
+
+.arrow{
+    width: 3.5vh;
+    height: auto;
+    flex-shrink: 0;
+    padding-top: 1vh;
+}
+
+
+
+@media (min-width: 880px) {
+.seccion-info-container{
+    min-width: 360px;
+    display: flex;
+    height:auto;
+    padding-left:10vh;
+    padding-bottom: 10vh;
+    align-items: start;
+}
+.seccion-info-es{
+    font-size:8.75rem;
+    align-items: start;   
+}
+
+.seccion-info-en{
+    padding-left: 0;
+    font-size: 8.75rem; 
+    text-wrap: balance;
+}
+
+.seccion-info{
+    padding-top: 11vh;
+    width: 100%;
+    height: auto;
+    align-items: start;
+}
+
+
+
+.seccion-proyects p a{
+    justify-content: start;    
+    display: flex;
+    flex-direction: column;
+    font-size: 2.25rem;
+}
+
+.arrow{
+    width: 5.5vh;
+    height: 5.5vh;  
+    padding-top: 0.6vh;
+}
+
+
+.seccion-proyects{
+    padding-top: 5vh;
+    display: flex;
+    align-items: start;
+    flex-direction: row;
+}
+
+
+}
+
+@media (min-width:1025px){   
+
+    .seccion-proyects p a{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        font-size: 2.25rem;
+    }
+    
+}
