@@ -7,7 +7,7 @@ const App = () => {
   return (
     <LanguageProvider>
       <Header/>
-      <Info/>
+      <Info/> 
     </LanguageProvider>
   );
 };
