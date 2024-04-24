@@ -15,5 +15,17 @@
         "the" : "la",
         "technology" : "tecnologia, ",
         "innovation" : " innovacion ",
-        "reliability" : "seriedad"
+        "reliability" : "seriedad",
+        "analysis" : "Analisis",
+        "design" : "Diseño",
+        "development" : "Desarrollo",
+        "evidence" : "Pruebas",
+        "maintenance" : "Mantenimiento",
+        "repeat" : "Repeat",
+        "analysisDef" : "El análisis es el proceso de dividir un tema complejo o sustancia en partes más pequeñas para obtener una mejor comprensión de él. La técnica se ha aplicado en el estudio de las matemáticas y la lógica desde antes de Aristóteles (384–322 a.C.), aunque el análisis como concepto formal es un desarrollo relativamente reciente.",
+        "designDef": "El diseño es el proceso de configuración mental preliminar, o prefiguración, que precede a la búsqueda de soluciones para que un producto resulte útil y atractivo. Se aplica habitualmente en el contexto de la industria, ingeniería, arquitectura, comunicación, marketing, moda y otras disciplinas que requieren creatividad.",
+        "developmentDef": "El desarrollo humano, según el Programa de las Naciones Unidas para el Desarrollo, es aquel que sitúa el desarrollo de los individuos en el centro del desarrollo, de manera que se goce de más oportunidades y un alto nivel de vida.1​2",
+        "evidenceDef" : "Una prueba es un hecho o evidencia, una razón o argumento, utilizado para demostrar la verdad o la falsedad de algo, de una acción, una tesis, una teoría.",
+        "maintenanceDef" : "Se define el mantenimiento como todas las acciones que tienen como objetivo preservar un artículo o restaurarlo a un estado en el cual pueda llevar a cabo alguna función requerida.1​ Estas acciones incluyen la combinación de las acciones técnicas y administrativas correspondientes.",
+        "repeatDef" : "a. repetir Repeat the sentence, please.Repite la frase, por favor.b. reiterar (una solicitud o demanda)Come out with your hands up! I repeat, come out with your hands up!¡Salga con las manos en alto! Reitero, ¡salga con las manos en alto!"
 }
