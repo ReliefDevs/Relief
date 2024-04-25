@@ -7,6 +7,8 @@ import { LanguageProvider } from './language';
 const App = () => {
   return (
     <LanguageProvider>
+      <Header/>
+      <Info/>
       <Processes/>  
     </LanguageProvider>
   );

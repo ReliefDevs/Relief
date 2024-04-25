@@ -13,9 +13,11 @@ const Processes = ()=>{
 
     return(
     <section class='section-processes-container'>
+        <h2 class="text-center text-md-start">Procesos</h2>
     <div class="container">
+    
         <div class="row">
-            <div class="col-sm-12 justify-content-start col-md-4 d-flex justify-content-center">  
+            <div class="col-sm-12 justify-content-start col-md-5 d-flex col-lg-6 justify-content-center">  
                 <div class='subtitle-box'>
                     <div class="subtitle"   onClick={() =>showDefinition(0)}>1.{analysis}</div>
                     <div class="subtitle"  onClick={() =>showDefinition(1)}>2.{design}</div>
@@ -25,7 +27,7 @@ const Processes = ()=>{
                     <div class="subtitle"   onClick={() =>showDefinition(5)}>6.{repeat}</div>     
                 </div>
             </div>
-            <div class="col-sm-12 justify-content-start col-md-8">   
+            <div class="col-sm-12 justify-content-start col-md-7 justify-content-center col-lg-6">   
                 <div class='definition-box'>
                     <div class="definition"><p>{analysisDef}</p></div>
                     <div class="definition"><p>{designDef}</p></div>
