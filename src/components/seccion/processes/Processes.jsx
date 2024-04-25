@@ -8,12 +8,12 @@ import "../../../processes"
 
 const Processes = ()=>{
     const { language, resources } = useLanguage();
-    const { analysis,design,development, evidence,maintenance,repeat , analysisDef , designDef, developmentDef , evidenceDef,maintenanceDef,repeatDef} = resources[language];
+    const {titleP , analysis,design,development, evidence,maintenance,repeat , analysisDef , designDef, developmentDef , evidenceDef,maintenanceDef,repeatDef} = resources[language];
 
 
     return(
     <section class='section-processes-container'>
-        <h2 class="text-center text-md-start">Procesos</h2>
+        <h2 class="text-center text-md-start">{titleP}</h2>
     <div class="container">
     
         <div class="row">
