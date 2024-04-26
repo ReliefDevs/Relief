@@ -1,5 +1,4 @@
 
-
 .header {
     background-image: url('Frame6ss.png');
     background-size: cover;
@@ -32,7 +31,7 @@ li{
 
 .header-layout-left h1 {
     color: #FFFCE5;
-    font-size: 9.3rem;
+    font-size: 9.3rem;  
     line-height: 0.7;
 }
 

@@ -91,18 +91,18 @@
      
      
      .subtitle-box {
-      border-left: solid 2px;
-       color: #005C57;
-       text-align: center;
+        border-left: solid 2px;
+        color: #005C57;
+        text-align: center;
       
      }
      
      .definition-box{
-     
-      height: 100%;
-       text-align: start;
-       color: #005C57;
-       text-align:center ;
+        border-top: none;
+        height: 100%;
+        text-align: start;
+        color: #005C57;
+        text-align:center ;
     
      }
      
