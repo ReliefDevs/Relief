@@ -164,6 +164,13 @@
 
   }
 
+  @media (min-width:1900px){  
+
+    .section-processes-container h2{
+      padding-left: 18vh;
+    }
+  }
+
 
 
 

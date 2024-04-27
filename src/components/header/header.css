@@ -1,4 +1,8 @@
-
+@media (max-width: 768px) {
+    .header-layout-left h1{
+        font-size: 20px;
+    }
+}
 .header {
     background-image: url('Frame6ss.png');
     background-size: cover;
