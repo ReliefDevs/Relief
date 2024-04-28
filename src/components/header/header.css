@@ -103,6 +103,11 @@ li{
         margin: 0px 0px 15px 10px;
         padding-left: 0px;
     }
+
+    .header-layout-right div {
+        width: 50%;
+        padding-right: 15px;
+    }
 }
 
 @media (max-width: 490px){
