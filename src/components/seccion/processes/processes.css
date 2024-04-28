@@ -145,6 +145,7 @@
 
     .subtitle-box{
       border: none;
+      text-align: start;
     }
 
     .container{

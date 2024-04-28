@@ -17,7 +17,7 @@ const Processes = ()=>{
     <div class="container">
     
         <div class="row">
-            <div class="col-sm-12 justify-content-start col-md-5 d-flex col-lg-6 justify-content-center">  
+            <div class="col-sm-12 justify-content-center col-md-5 d-flex col-lg-6">  
                 <div class='subtitle-box'>
                     <div class="subtitle"   onClick={() =>showDefinition(0)}>1.{analysis}</div>
                     <div class="subtitle"  onClick={() =>showDefinition(1)}>2.{design}</div>

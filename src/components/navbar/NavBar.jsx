@@ -16,7 +16,7 @@ import flagEn from './flags/eeuu.png';
             <div className="col-2 d-flex justify-content-center mt-3 mb-3">
                 <p className= "d-flex align-content-center nav-name m-0">Relief;</p>
             </div>
-            <div className="col-8 d-flex justify-content-center align-content-center mt-3">
+            <div className="col-8 d-flex justify-content-end align-content-center mt-3">
                 <ul className= "nav-list justify-content-evenly p-0">  
                     <li className=' align-content-center '><a href="#servies">{services}</a></li>
                     <li className=' align-content-center '><a href="#portfolio">{portfolio}</a></li>
