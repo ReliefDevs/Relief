@@ -15,7 +15,7 @@ const Services = () => {
                 <div className="services-web-development d-flex justify-content-evenly align-item-center w-100">
                     <div>
                         <h3 className="services-web-development-h3">Web Development</h3>
-                        <p>¿Necesitas una web que te haga brillar?</p>
+                        <p className="services-ux-ui-box-p">¿Necesitas una web que te haga brillar?</p>
                         <p>¡Desarrolla tu proyecto online con nuestro equipo experto!</p>
                         <ul>
                             <li>Diseño web profesional y personalizado</li>
@@ -32,9 +32,9 @@ const Services = () => {
 
             <article className="row">
                 <div className="services-ux-ui d-flex justify-content-evenly align-item-center w-100">
-                    <div>
+                    <div className="services-ux-ui-box">
                         <h3 className="services-ux-ui-h3">UX/UI design</h3>
-                        <p>¿Necesitas una web que te haga brillar?</p>
+                        <p className="services-ux-ui-box-p">¿Necesitas una web que te haga brillar?</p>
                         <p>¡Desarrolla tu proyecto online con nuestro equipo experto!</p>
                         <ul>
                             <li>Diseño web profesional y personalizado</li>
@@ -55,7 +55,7 @@ const Services = () => {
                 <div className="services-staff-on-demand d-flex justify-content-evenly align-item-center w-100">
                     <div>
                         <h3 className="services-staff-on-demand-h3">Staff on demand</h3>
-                        <p>¿Necesitas una web que te haga brillar?</p>
+                        <p className="services-ux-ui-box-p">¿Necesitas una web que te haga brillar?</p>
                         <p>¡Desarrolla tu proyecto online con nuestro equipo experto!</p>
                         <ul>
                             <li>Diseño web profesional y personalizado</li>

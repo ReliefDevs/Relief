@@ -5,13 +5,7 @@
     background-size: cover;
     height: 100%;
 }
-h3 {
-    color: #FFFCE5;
-    font-style: normal;
-    line-height: normal;
-    width: 80%;
-    margin: 5% 0;
-}
+
 
 li{
     width: 80%;
@@ -19,6 +13,8 @@ li{
 
 
 .header-h3 {
+    width: 80%;
+    margin: 5% 0;
     color: #FFFCE5;
     font-style: normal;
     margin-top: 3%;
