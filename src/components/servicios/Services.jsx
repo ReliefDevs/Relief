@@ -10,9 +10,9 @@ const Services = () => {
 
     return(
         <section className="services">
-            <article className="row pb-5">
-                <h2 className="ms-5 pb-5 pt-5">Servicios</h2>
-                <div className="services-web-development d-flex justify-content-start align-item-center ms-5 w-100">
+            <article className="row pb-5 w-auto m-0">
+                <h2 className="py-5 w-auto">Servicios</h2>
+                <div className="services-web-development d-flex justify-content-start align-item-center m-0 p-0">
                     <div>
                         <h3 className="services-web-development-h3">Web Development</h3>
                         <p className="services-ux-ui-box-p">¿Necesitas una web que te haga brillar?</p>
@@ -30,8 +30,8 @@ const Services = () => {
                 </div>
             </article>
 
-            <article className="row pb-5">
-                <div className="services-ux-ui d-flex justify-content-between align-item-center ms-5 w-100">
+            <article className="row pb-5 m-0">
+                <div className="services-ux-ui d-flex justify-content-between align-item-center m-0 p-0">
                     <div className="services-ux-ui-box">
                         <h3 className="services-ux-ui-h3">UX/UI design</h3>
                         <p className="services-ux-ui-box-p">¿Necesitas una web que te haga brillar?</p>
@@ -51,8 +51,8 @@ const Services = () => {
                 </div>
             </article>
 
-            <article className="row pb-5">
-                <div className="services-staff-on-demand d-flex justify-content-between align-item-center ms-5 w-100">
+            <article className="row pb-5 m-0">
+                <div className="services-staff-on-demand d-flex justify-content-between align-item-center m-0 p-0">
                     <div>
                         <h3 className="services-staff-on-demand-h3">Staff <br />on demand</h3>
                         <p className="services-ux-ui-box-p">¿Necesitas una web que te haga brillar?</p>

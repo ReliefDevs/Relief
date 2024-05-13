@@ -8,6 +8,7 @@ h2 {
     color: #FFFCE5;
 }
 
+
 li, p {
     color: #FFFCE5;
     font-size: 30px;
@@ -15,6 +16,8 @@ li, p {
 }
 
 .services {
+    padding-left: 60px;
+    /* width: 100%; */
     background-image: url('servicios-background.png');
     background-position: center center;
     background-size: cover;
@@ -59,6 +62,5 @@ li, p {
 }
 
 .services-ux-ui-box-p {
-    font-weight: 500;
-    
+    font-weight: 500; 
 }
