@@ -1,5 +1,4 @@
 
-
 .header {
     background-image: url('Frame6ss.png');
     background-size: cover;
@@ -13,7 +12,7 @@ li{
 
 
 .header-h3 {
-    width: 80%;
+    width: 100%;
     margin: 5% 0;
     color: #FFFCE5;
     font-style: normal;
