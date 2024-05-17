@@ -26,7 +26,6 @@ export function showDefinition(index) {
 
 // Función para cambiar automáticamente las definiciones cada 5 segundos
 function changeDefinitionAutomatically() {
-    console.log("default index: ", defaultIndex);
     // Obtener todas las definiciones
     let definitions = document.querySelectorAll('.definition');
 

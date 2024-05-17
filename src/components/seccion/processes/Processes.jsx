@@ -27,9 +27,9 @@ const Processes = ()=>{
                     <div class="subtitle" onClick={() =>showDefinition(5)}>6.{repeat}</div>     
                 </div>
             </div>
-            <div class="col-sm-12 col-md-7 d-flex justify-content-center col-lg-6">   
-                <div class='definition-box col-12 d-flex align-content-center'>
-                    <div class="definition"><p id='first-definition'>{analysisDef}</p></div>
+            <div class="col-sm-12 col-md-7 d-flex justify-content-center col-lg-6 definition-container">   
+                <div class='definition-box col-12 d-flex align-items-center'>
+                    <div class="definition"><p>{analysisDef}</p></div>
                     <div class="definition"><p>{designDef}</p></div>
                     <div class="definition"><p>{developmentDef}</p></div>
                     <div class="definition"><p>{testingDef}</p></div>
