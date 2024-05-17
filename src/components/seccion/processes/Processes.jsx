@@ -8,7 +8,7 @@ import "../../../processes"
 
 const Processes = ()=>{
     const { language, resources } = useLanguage();
-    const {titleP , analysis,design,development, evidence,maintenance,repeat , analysisDef , designDef, developmentDef , evidenceDef,maintenanceDef,repeatDef} = resources[language];
+    const {titleP , analysis,design,development, testing,maintenance,repeat , analysisDef , designDef, developmentDef , testingDef,maintenanceDef,repeatDef} = resources[language];
 
 
     return(
@@ -18,21 +18,21 @@ const Processes = ()=>{
     
         <div class="row">
             <div class="col-sm-12 justify-content-center col-md-5 d-flex col-lg-6">  
-                <div class='subtitle-box'>
-                    <div class="subtitle"   onClick={() =>showDefinition(0)}>1.{analysis}</div>
-                    <div class="subtitle"  onClick={() =>showDefinition(1)}>2.{design}</div>
-                    <div class="subtitle"   onClick={() =>showDefinition(2)}>3.{development}</div>
-                    <div class="subtitle"   onClick={() =>showDefinition(3)}>4.{evidence}</div>
+                <div class='subtitle-box p-5 col-10 justify-content-center'>
+                    <div class="subtitle" onClick={() =>showDefinition(0)}>1.{analysis}</div>
+                    <div class="subtitle" onClick={() =>showDefinition(1)}>2.{design}</div>
+                    <div class="subtitle" onClick={() =>showDefinition(2)}>3.{development}</div>
+                    <div class="subtitle" onClick={() =>showDefinition(3)}>4.{testing}</div>
                     <div class="subtitle" onClick={() =>showDefinition(4)}>5.{maintenance}</div>
-                    <div class="subtitle"   onClick={() =>showDefinition(5)}>6.{repeat}</div>     
+                    <div class="subtitle" onClick={() =>showDefinition(5)}>6.{repeat}</div>     
                 </div>
             </div>
-            <div class="col-sm-12 justify-content-start col-md-7 justify-content-center col-lg-6">   
-                <div class='definition-box'>
-                    <div class="definition"><p>{analysisDef}</p></div>
+            <div class="col-sm-12 col-md-7 d-flex justify-content-center col-lg-6">   
+                <div class='definition-box col-12 d-flex align-content-center'>
+                    <div class="definition"><p id='first-definition'>{analysisDef}</p></div>
                     <div class="definition"><p>{designDef}</p></div>
                     <div class="definition"><p>{developmentDef}</p></div>
-                    <div class="definition"><p>{evidenceDef}</p></div>
+                    <div class="definition"><p>{testingDef}</p></div>
                     <div class="definition"><p>{maintenanceDef}</p></div>
                     <div class="definition"><p>{repeatDef}</p></div>
                 </div>

@@ -1,5 +1,5 @@
 let defaultIndex = 0;
-let currentIndex =0;
+let currentIndex = 0;
 
 // Función para mostrar la definición correspondiente al índice
 export function showDefinition(index) {
@@ -19,13 +19,14 @@ export function showDefinition(index) {
     // Mostrar la definición correspondiente al índice proporcionado y resaltar el subtítulo
     definitions[index].classList.add('show');
     subtitles[index].classList.add('bold');
-
     // Actualizar el índice actual
     currentIndex = index;
+    defaultIndex= currentIndex;
 }
 
 // Función para cambiar automáticamente las definiciones cada 5 segundos
 function changeDefinitionAutomatically() {
+    console.log("default index: ", defaultIndex);
     // Obtener todas las definiciones
     let definitions = document.querySelectorAll('.definition');
 
@@ -44,8 +45,10 @@ function changeDefinitionAutomatically() {
 // Mostrar la definición predeterminada cuando la página se carga por primera vez
 window.addEventListener('load', function() {
     showDefinition(defaultIndex);
+    // Iniciar el temporizador para cambiar automáticamente las definiciones cada 5 segundos
+    setInterval(changeDefinitionAutomatically, 7000);
 });
 
-// Iniciar el temporizador para cambiar automáticamente las definiciones cada 5 segundos
-setInterval(changeDefinitionAutomatically, 5000);
+
+
   

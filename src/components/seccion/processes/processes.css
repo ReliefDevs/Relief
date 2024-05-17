@@ -23,17 +23,15 @@
      color: #005C57;
      text-align: start;
      padding-bottom: 2vh;
-     
-    
+     padding: 0 10px !important;
+     width: 100%;
    }
    
-   .definition-box{
-      border-bottom:solid 2px;
-      border-top: solid 2px;  
-     text-align: start;
-     color: #005C57;
-     text-align:center ;
-  
+  .box{
+    border-bottom:solid 2px;
+    border-top: solid 2px;  
+    text-align: start;
+    color: #005C57;
    }
    
    .subtitle {
