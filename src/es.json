@@ -28,5 +28,20 @@
         "testingDef" : "Aseguramos la calidad del producto desarrollado. Es como revisar la casa antes de mudarse: Se comprueba que todo funcione correctamente.",
         "maintenanceDef" : "Una vez que tu web este en Google, se continúa trabajando en ella. Es como cuidar la casa: se pintan las paredes y se actualiza la decoración.",
         "repeatDef" : "Se vuelve a comenzar el ciclo para continuar mejorando. Es como agregarle una extención a la casa: continuas con el crecimiento",
-        "titleP" : "Procesos"
+        "titleP" : "Procesos",
+
+        "aboutUs":{
+                "title":"About Us",
+                "text": "Somos un equipo comprometido con el crecimiento que ayuda a nuestros clientes a alcanzar sus metas mediante la innovación. Creemos en la colaboración, la comunicación y el trabajo en equipo. Nos enfocamos en desarrollar soluciones sólidas para nuestros clientes.",
+                "phrase": "Transformamos tus ideas en",
+                "phraseBold": "realidad"
+        },
+
+        "ourTeam":{
+                "title":"About Us",
+                "text": "Somos un equipo comprometido con el crecimiento que ayuda a nuestros clientes a alcanzar sus metas mediante la innovación. Creemos en la colaboración, la comunicación y el trabajo en equipo. Nos enfocamos en desarrollar soluciones sólidas para nuestros clientes.",
+                "phrase": "Transformamos tus ideas en",
+                "phraseBold": "realidad"
+        }
+
 }
