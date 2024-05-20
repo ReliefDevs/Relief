@@ -21,6 +21,7 @@ export function showDefinition(index) {
     subtitles[index].classList.add('bold');
     // Actualizar el índice actual
     currentIndex = index;
+    // Actualizar el índice para el timer
     defaultIndex= currentIndex;
 }
 

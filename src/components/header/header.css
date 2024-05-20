@@ -3,18 +3,13 @@
         font-size: 20px;
     }
 }
+
 .header {
     background-image: url('Frame6ss.png');
     background-size: cover;
     height: 100%;
 }
-h3 {
-    color: #FFFCE5;
-    font-style: normal;
-    line-height: normal;
-    width: 80%;
-    margin: 5% 0;
-}
+
 
 li{
     width: 80%;
@@ -22,6 +17,8 @@ li{
 
 
 .header-h3 {
+    width: 100%;
+    margin: 5% 0;
     color: #FFFCE5;
     font-style: normal;
     margin-top: 3%;
@@ -52,6 +49,7 @@ li{
 }
 
 
+
 .header-layout-left-legend {
     color: #FFFAD1;
     font-style: italic;
@@ -80,7 +78,47 @@ li{
 .header-layaut-bottom{
     padding: 0 0 2% 0;
 }
-/* 
+
+
+@media (max-width: 990px){
+    .header-layout-left h1 {
+        font-size: 8rem;
+    }
+
+    .header-layout-left span{
+        font-size: 6.5rem;
+    }
+}
+
+@media (max-width: 767px){
+    .header-layout-left h1 {
+        font-size: 6.5rem;
+    }
+
+    .header-layout-left span{
+        font-size: 5.5rem;
+    }
+
+    .header-layout-left {
+        margin: 0px 0px 15px 10px;
+        padding-left: 0px;
+    }
+
+    .header-layout-right div {
+        width: 50%;
+        padding-right: 15px;
+    }
+}
+
+@media (max-width: 490px){
+    .header-layout-left h1 {
+        font-size: 5.5rem;
+    }
+
+    .header-layout-left span{
+        font-size: 5rem;
+    }
+}
 
 
 
