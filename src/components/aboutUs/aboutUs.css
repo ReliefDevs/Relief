@@ -1,0 +1,40 @@
+.about-us {
+    padding-left: 60px;
+    /* width: 100%; */
+    background-image: url('img/aboutus-background.png');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Roboto flex";
+    color: #FFFCE5;
+}
+.about-us-title{
+    font-size: 900%;
+    font-weight: 400;
+}
+.about-us-text{
+    font-family: "Roboto Flex";
+    font-size: 300%;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.about-us-phrase{
+    font-family: "Roboto Condensed";
+    font-size: 550%;
+    font-style: normal;
+    font-weight: 300;
+    width: 80%;
+}
+.about-us-bold{
+    font-weight: bold;
+    font-size: 100%;
+}
+.single{    
+    font-family: "Roboto Condensed";
+    font-style: normal;
+    width: 10%;
+}
+.single, .about-us-bold{
+    font-weight: 300;
+}

@@ -33,14 +33,14 @@
         "aboutUs":{
                 "title":"About Us",
                 "text": "Somos un equipo comprometido con el crecimiento que ayuda a nuestros clientes a alcanzar sus metas mediante la innovación. Creemos en la colaboración, la comunicación y el trabajo en equipo. Nos enfocamos en desarrollar soluciones sólidas para nuestros clientes.",
-                "phrase": "Transformamos tus ideas en",
-                "phraseBold": "realidad"
+                "phrase": "Transformamos tus ideas",
+                "phraseBold": " realidad"
         },
 
         "ourTeam":{
                 "title":"About Us",
                 "text": "Somos un equipo comprometido con el crecimiento que ayuda a nuestros clientes a alcanzar sus metas mediante la innovación. Creemos en la colaboración, la comunicación y el trabajo en equipo. Nos enfocamos en desarrollar soluciones sólidas para nuestros clientes.",
-                "phrase": "Transformamos tus ideas en",
+                "phrase": "Transformamos tus ideas",
                 "phraseBold": "realidad"
         }
 
