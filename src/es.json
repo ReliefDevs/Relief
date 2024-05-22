@@ -15,5 +15,12 @@
         "the" : "la",
         "technology" : "tecnologia, ",
         "innovation" : " innovacion ",
-        "reliability" : "seriedad"
+        "reliability" : "seriedad",
+
+        "services-section":{
+                "services-h2" : "Servicios",
+                "web-development-question" : "¿Necesitas una web que te haga brillar?",
+                "web-development-p" : "¡Desarrolla tu proyecto online con nuestro equipo experto!",
+                "" : ""
+        }
 }

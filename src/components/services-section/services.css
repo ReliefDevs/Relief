@@ -1,7 +1,7 @@
 h2 {
     /* color: #FFFCE5; */
     font-family: "Roboto Flex";
-    font-size: 250px;
+    font-size: 15.625rem;
     font-style: normal;
     font-weight: 400;
     line-height: 98.438%; 
@@ -11,12 +11,12 @@ h2 {
 
 li, p {
     color: #FFFCE5;
-    font-size: 30px;
+    font-size: 1.875rem;
     font-weight: 400;
 }
 
 .services {
-    padding-left: 60px;
+    padding-left: 3.75rem;
     /* width: 100%; */
     background-image: url('servicios-background.png');
     background-position: center center;
@@ -27,7 +27,7 @@ li, p {
 .services-web-development-h3, .services-staff-on-demand-h3, .services-ux-ui-h3 {
     /* color: #FFFCE5; */
     font-family: "Roboto Condensed";
-    font-size: 120px;
+    font-size: 7.5rem;
     font-style: normal;
     font-weight: 700;
     line-height: 98.438%;
@@ -39,8 +39,8 @@ li, p {
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 500px;
-    width: 450px;
+    height: 55.556vh;
+    width:  24.324324324324323vw;
 }
 
 .services-ux-ui-image {
@@ -48,8 +48,8 @@ li, p {
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 500px;
-    width: 450px;
+    height: 55.556vh;
+    width:  24.324324324324323vw;
 }
 
 .services-staff-on-demand-image {
@@ -57,8 +57,8 @@ li, p {
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 500px;
-    width: 450px;
+    height: 55.556vh;
+    width:  24.324324324324323vw;
 }
 
 .services-ux-ui-box-p {
