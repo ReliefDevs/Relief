@@ -17,9 +17,9 @@ const Header =() =>{
                 <h3 className="d-flex justify-content-center header-h3">{headerH3}</h3>
             </div>
             <div className="row m-0">
-                <div className="col-8 col-md-4 d-flex justify-content-center header-layout-left">
+            <div className="col-8 col-md-4 d-flex justify-content-center header-layout-left">
                     <h1>{are}<br /><span>Relief;</span></h1>
-                </div>
+            </div>
             </div>
                 <div className="row m-0 header-layaut-bottom">
                     <div className="col-12 mb-5 col-md-5 order-1 order-md-2 d-flex justify-content-end header-layout-right">

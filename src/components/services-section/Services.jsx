@@ -15,8 +15,8 @@ const Services = () => {
                 <div className="services-web-development d-flex justify-content-start align-item-center m-0 p-0">
                     <div>
                         <h3 className="services-web-development-h3">Web Development</h3>
-                        <p className="services-ux-ui-box-p">¿Necesitas una web que te haga brillar?</p>
-                        <p>¡Desarrolla tu proyecto online con nuestro equipo experto!</p>
+                        <p className="services-ux-ui-box-p services-text">¿Necesitas una web que te haga brillar?</p>
+                        <p className="services-text">¡Desarrolla tu proyecto online con nuestro equipo experto!</p>
                         <ul>
                             <li>Diseño web profesional y personalizado</li>
                             <li>Soluciones a medida para tus necesidades</li>

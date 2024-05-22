@@ -22,5 +22,18 @@
                 "web-development-question" : "¿Necesitas una web que te haga brillar?",
                 "web-development-p" : "¡Desarrolla tu proyecto online con nuestro equipo experto!",
                 "" : ""
-        }
+        },
+        "analysis" : "Analisis",
+        "design" : "Diseño",
+        "development" : "Desarrollo",
+        "testing" : "Pruebas",
+        "maintenance" : "Mantenimiento",
+        "repeat" : "Repeat",
+        "analysisDef" : "Se define el problema y la solucion. Es como dibujar el plano de la casa: defines qué habitaciones tendrá, dónde estaran las puertas y ventanas.",
+        "designDef": "Aquí se diseñan las pantallas, los botones, los menús y todo lo que el usuario verá e interactuará. Es como decorar la casa: decides el estilo y los colores.",
+        "developmentDef": "En esta etapa, comenzamos el desarrollo de software. Es el proceso de construcción de la casa: desde los cimientos hasta la decoracion.",
+        "testingDef" : "Aseguramos la calidad del producto desarrollado. Es como revisar la casa antes de mudarse: Se comprueba que todo funcione correctamente.",
+        "maintenanceDef" : "Una vez que tu web este en Google, se continúa trabajando en ella. Es como cuidar la casa: se pintan las paredes y se actualiza la decoración.",
+        "repeatDef" : "Se vuelve a comenzar el ciclo para continuar mejorando. Es como agregarle una extención a la casa: continuas con el crecimiento",
+        "titleP" : "Procesos"
 }

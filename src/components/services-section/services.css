@@ -9,7 +9,7 @@ h2 {
 }
 
 
-li, p {
+li, .services-text{
     color: #FFFCE5;
     font-size: 1.875rem;
     font-weight: 400;

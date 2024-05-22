@@ -1,3 +1,8 @@
+@media (max-width: 768px) {
+    .header-layout-left h1{
+        font-size: 20px;
+    }
+}
 
 .header {
     background-image: url('Frame6ss.png');
@@ -27,7 +32,7 @@ li{
 
 .header-layout-left h1 {
     color: #FFFCE5;
-    font-size: 9.3rem;
+    font-size: 9.3rem;  
     line-height: 0.7;
 }
 
@@ -125,7 +130,11 @@ li{
 
 /* MOBILE
 
-@media (max-width: 880px) {
+@media (min-width: 880px) {
+
+    h3{
+        font-weight: 100;
+    }
     .header {
         min-width: 360px;
     }

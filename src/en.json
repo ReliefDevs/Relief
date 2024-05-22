@@ -16,5 +16,19 @@
         "the" : "the",
         "technology" : "technology, ",
         "innovation" : " innovation, ",
-        "reliability" : "reliability"
+        "reliability" : "reliability",
+        "analysis" : "Analysis",
+        "design" : "Desing",
+        "development" : "Development",
+        "testing" : "testing",
+        "maintenance" : "Maintenance",
+        "repeat" : "Repeat",
+        "analysisDef" : "Analysis is the process of breaking down a complex topic or substance into smaller parts to gain a better understanding of it. The technique has been applied in the study of mathematics and logic since before Aristotle (384–322 BC), although analysis as a formal concept is a relatively recent development.",
+        "designDef": "Design is the process of preliminary mental configuration, or prefiguration, that precedes the search for solutions to make a product useful and attractive. It is usually applied in the context of industry, engineering, architecture, communication, marketing, fashion and other disciplines that require creativity.",
+        "developmentDef": "Human development, according to the United Nations Development Program, is that which places the development of individuals at the center of development, so that they enjoy more opportunities and a high standard of living.1​2",
+        "testingDef" : "A proof is a fact or testing, a reason or argument, used to demonstrate the truth or falsity of something, an action, a thesis, a theory.",
+        "maintenanceDef" : "Maintenance is defined as all actions that aim to preserve an item or restore it to a state in which it can perform some required function.1 These actions include the combination of the corresponding technical and administrative actions.",
+        "repeatDef" : "to. repeat Repeat the sentence, please.Repetite the phrase, please.b. reiterate (a request or demand)Come out with your hands up! I repeat, come out with your hands up! Come out with your hands up! Again, come out with your hands up!",
+        "titleP" : "Processes"
+
     }

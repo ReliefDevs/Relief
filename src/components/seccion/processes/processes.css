@@ -1,0 +1,173 @@
+@media (max-width: 768px) {
+  .section-processes-container{ 
+    background: #FFFDEF;
+    width: 100%;
+    
+   }
+
+   .section-processes-container h2{
+    color: #005C57;
+    font-family: "Roboto Flex";
+    font-style: normal;
+    font-weight: 600;
+    line-height: 98.438%; /* 63px */
+   }
+
+   .container{
+    padding: 0;
+   }
+   
+   
+   .subtitle-box {
+     color: #005C57;
+     text-align: start;
+     padding-bottom: 2vh;
+     padding: 0 10px !important;
+     width: 100%;
+   }
+   
+  .definition-box{
+    border-bottom:solid 2px;
+    border-top: solid 2px;  
+    text-align: start;
+    align-content: end;
+    color: #005C57;
+   }
+   
+   .subtitle {
+      padding-top: 1vh;  
+     color: #005C57;
+     font-family: "Roboto Flex";
+     font-style: italic;
+     font-weight: 500;
+     line-height: 98.438%; /* 47.25px */
+     cursor: pointer;
+     padding-bottom: 1vh;
+   }
+   
+   .definition {
+    padding-top: 3vh;
+    padding-bottom: 1vh;
+    text-wrap: balance;
+    color: #005C57;
+    font-family: "Roboto Flex";
+    font-style: normal;
+    font-weight: 300;
+    line-height: 98.438%; /* 39.375px */
+    display: none;
+   }
+   
+   .show {
+     display: block;
+   }
+
+   .bold {
+    font-weight: bold;
+  }
+   
+  }
+
+
+@media (min-width: 768px) {
+  
+    .section-processes-container{ 
+      background: #FFFDEF;
+      width: 100%;
+     }
+
+     .section-processes-container h2{
+      color: #005C57;
+      font-family: "Roboto Flex";
+      font-style: normal;
+      font-weight: 600;
+      line-height: 98.438%;  
+      padding-left: 7vh;
+     }
+     
+     
+     .subtitle-box {
+        color: #005C57;
+        text-align: center;
+      
+     }
+     
+     .definition-box{
+        border-top: none;
+        text-align: center;
+        color: #005C57;
+        text-align:center ;
+
+     }
+     
+     .subtitle {
+      padding-bottom: 1.5vh;
+       text-wrap: balance;
+       color: #005C57;
+       font-family: "Roboto Flex";
+       font-size: 250%;
+       font-style: italic;
+       font-weight: 500;
+       line-height: 98.438%; 
+       cursor: pointer;
+     }
+     .definition-container{
+      border-left: solid 2px #005C57;
+      border-right: solid 2px #005C57;
+     }
+     .definition {
+       text-wrap: balance;
+       font-family: "Roboto Flex";
+       font-size: 300%;
+       font-style: normal;
+       font-weight: 300;
+       line-height: 98.438%;
+       display: none;
+     }
+     
+     .show {
+       display: block;
+     }
+  
+     .bold {
+      font-weight: bold;
+    }
+  }
+
+  @media (min-width: 992px) {
+
+    .subtitle-box{
+      border: none;
+      text-align: start;
+    }
+
+    .container{
+      border-left: solid 2px;
+      color: #005C57;
+    }
+    .section-processes-container{
+      padding-left: 5vh;
+      padding-bottom: 8vh;
+    }
+
+    .section-processes-container h2{
+      padding-left: 8vh;
+      padding-bottom: 4vh;
+      font-size: 850%;
+     }
+
+  }
+
+  @media (min-width:1900px){  
+
+    .section-processes-container h2{
+      padding-left: 18vh;
+    }
+  }
+
+
+
+
+
+
+
+

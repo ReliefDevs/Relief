@@ -3,60 +3,50 @@
 .seccion-info-container{
     display: flex;
     height: auto;
-    flex-direction: column;
-    justify-content: center;
-    align-items: start;
-    padding-left: 3vh;
-    background: #FFFDEF;  
-}
-
-.seccion-info{
-    display: flex;
-    width: 34vh;    
-    height: auto;
+    width:auto;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background: #FFFDEF; 
+    padding-left: 2vh; 
+}
+
+.seccion-info{
     flex-shrink: 0;
     margin: 0;
 }
 
 .seccion-info-es {
     color: #005C57;
-    padding-top: 10vh;   
+    padding-top: 6vh;
     font-family: "Roboto Flex";
-    font-size: 3.125rem;
+    font-size: 3rem;
     font-style: normal;
     font-weight: 400;
     line-height: 98.438%; 
 }
 
 .seccion-info-en {
+    padding-top: 6vh;
     color: #005C57;
     font-family: "Roboto Flex";
-    font-size: 3.75rem;
+    font-size: 3rem;
     font-style: normal;
     font-weight: 400;
     line-height: 98.438%; /* 157.5px */
-    padding-top: 10vh;   
-    padding-left: 8vh;
-    align-items: start;
 }
 
-.seccion-proyects{  
-    width: 45vh;
-    height: auto;
-    display: flex;
+.seccion-proyects{
+    width: 100%;
+    padding-right: 2vh;
     padding-top: 2vh;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     flex-shrink: 0;
 }
 
 .seccion-proyects p a{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     color: #005C57;
     text-decoration: none;
@@ -66,6 +56,7 @@
     font-weight: 300;
     line-height: 98.438%; /* 17.719px */
 }
+
 
 .arrow{
     width: 3.5vh;
@@ -86,12 +77,13 @@
     align-items: start;
 }
 .seccion-info-es{
-    font-size:8.75rem;   
+    font-size:8.75rem;
+    align-items: start;   
 }
 
 .seccion-info-en{
     padding-left: 0;
-    font-size: 10rem;
+    font-size: 8.75rem; 
     text-wrap: balance;
 }
 
@@ -105,9 +97,9 @@
 
 
 .seccion-proyects p a{
+    justify-content: start;    
     display: flex;
     flex-direction: column;
-    align-items: center;
     font-size: 2.25rem;
 }
 
@@ -121,15 +113,14 @@
 .seccion-proyects{
     padding-top: 5vh;
     display: flex;
+    align-items: start;
     flex-direction: row;
-    width: auto;
-    height: auto;
 }
 
 
 }
 
-@media (min-width:1020px){   
+@media (min-width:1025px){   
 
     .seccion-proyects p a{
         display: flex;
