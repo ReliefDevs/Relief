@@ -6,11 +6,6 @@
         padding-bottom: 8vh;
      }
 
-     .container{
-        border-left: solid 0.125rem;
-        color: #005C57;
-    }
-
      .section-processes-container h2{
         color: #005C57;
         font-family: "Roboto Flex";
@@ -19,7 +14,7 @@
         font-weight: 600;
         line-height: 98.438%; /* 63px */
         display: flex;
-        padding-left: 8.1vh;
+
      }
      
      
@@ -27,7 +22,7 @@
         border-left: solid 0.125rem;
         color: #005C57;
         text-align: center;
-        border: none;
+        border-left: solid 0.125rem;
       
      }
      
@@ -37,9 +32,6 @@
         text-align: center;
         color: #005C57;
         
-    
-
-    
      }
      
      .subtitle {

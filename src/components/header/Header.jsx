@@ -31,7 +31,9 @@ const Header =() =>{
                         <p className="mt-5 header-layout-left-legend">{legend}</p>
                     </div>
                 </div>
+
         </section>
+          
     )
 }
 
