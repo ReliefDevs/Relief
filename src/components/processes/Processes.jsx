@@ -11,8 +11,8 @@ const Processes = ()=>{
 
     return(
     <section class='section-processes-container'>
-    <div class="container">
         <h2 class="text-center text-md-start">{titleP}</h2>
+    <div class="container-processes">
     
         <div class="row">
             <div class="col-sm-12 justify-content-center col-md-7 d-flex col-lg-6">  
