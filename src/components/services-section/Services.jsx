@@ -6,22 +6,25 @@ import "../../language";
 const Services = () => {
 
     const { language, resources} = useLanguage();
-    const {headerH3, are,legend, layoutRight, technology, innovation , reliability , and , the} = resources[language];
+    const {services_h2, web_development_question, web_development_p, web_development_item1, web_development_item2, web_development_item3, web_development_item4,
+        uxui_design_question, uxui_design_p, uxui_design_item1, uxui_design_item2, uxui_design_item3, uxui_design_item4,
+        staff_on_demand_question, staff_on_demand_p, staff_on_demand_item1, staff_on_demand_item2, staff_on_demand_item3,
+    } = resources[language];
 
     return(
         <section className="services">
             <article className="row pb-5 w-auto m-0">
-                <h2 className="py-5 w-auto">Servicios</h2>
+                <h2 className="py-5 w-auto">{services_h2}</h2>
                 <div className="services-web-development d-flex justify-content-start align-item-center m-0 p-0">
                     <div>
                         <h3 className="services-web-development-h3">Web Development</h3>
-                        <p className="services-ux-ui-box-p services-text">¿Necesitas una web que te haga brillar?</p>
-                        <p className="services-text">¡Desarrolla tu proyecto online con nuestro equipo experto!</p>
+                        <p className="services-ux-ui-box-p services-text">{web_development_question}</p>
+                        <p className="services-text">{web_development_p}</p>
                         <ul>
-                            <li>Diseño web profesional y personalizado</li>
-                            <li>Soluciones a medida para tus necesidades</li>
-                            <li>Posicionamiento SEO para que te encuentren en Google</li>
-                            <li>Soporte técnico y mantenimiento continuo</li>
+                            <li>{web_development_item1}</li>
+                            <li>{web_development_item2}</li>
+                            <li>{web_development_item3}</li>
+                            <li>{web_development_item4}</li>
                         </ul>
                     </div>
                     <div className="services-web-development-image">
@@ -34,13 +37,13 @@ const Services = () => {
                 <div className="services-ux-ui d-flex justify-content-between align-item-center m-0 p-0">
                     <div className="services-ux-ui-box">
                         <h3 className="services-ux-ui-h3">UX/UI design</h3>
-                        <p className="services-ux-ui-box-p">¿Conoces la importancia del diseño?</p>
-                        <p>¡Estamos aqui para impulsar tu negocio y su apariencia!</p>
+                        <p className="services-ux-ui-box-p services-text">{uxui_design_question}</p>
+                        <p className="services-text">{uxui_design_p}</p>
                         <ul>
-                            <li>Diseño optimizado para incrementar tu conversión </li>
-                            <li>Enfoque en la mejor experiencia para tus usuarios</li>
-                            <li>Diseño competitivo y en tendencia</li>
-                            <li>Diseño responsive </li>
+                            <li>{uxui_design_item1}</li>
+                            <li>{uxui_design_item2}</li>
+                            <li>{uxui_design_item3}</li>
+                            <li>{uxui_design_item4}</li>
                         </ul>
                     </div>
                     <div className="services-ux-ui-image">
@@ -55,12 +58,12 @@ const Services = () => {
                 <div className="services-staff-on-demand d-flex justify-content-between align-item-center m-0 p-0">
                     <div>
                         <h3 className="services-staff-on-demand-h3">Staff <br />on demand</h3>
-                        <p className="services-ux-ui-box-p">¿Conocias esta modalidad?</p>
-                        <p>¡Equipos personalizados y a demanda!</p>
+                        <p className="services-ux-ui-box-p services-text">{staff_on_demand_question}</p>
+                        <p className="services-text">{staff_on_demand_p}</p>
                         <ul>
-                            <li>Equipo por tiempo indeterminado</li>
-                            <li>Recursos humanos de alta capacidad</li>
-                            <li>Personal flexible para adaptarse a tu proyecto</li>
+                            <li>{staff_on_demand_item1}</li>
+                            <li>{staff_on_demand_item2}</li>
+                            <li>{staff_on_demand_item3}</li>
                         </ul>
                     </div>
                     <div className="services-staff-on-demand-image">
