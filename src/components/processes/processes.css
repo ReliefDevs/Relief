@@ -2,7 +2,6 @@
     .section-processes-container{ 
         background: #FFFDEF;
         width: 100%;
-        padding-left: 5vh;
         padding-bottom: 8vh;
      }
 
@@ -14,6 +13,7 @@
         font-weight: 600;
         line-height: 98.438%; /* 63px */
         display: flex;
+        padding-left: 5.1vh;
 
      }
      
