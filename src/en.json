@@ -17,6 +17,30 @@
         "technology" : "technology, ",
         "innovation" : " innovation, ",
         "reliability" : "reliability",
+
+        
+            "services_h2" : "Services",
+            "web_development_question" : "Need a website that makes you shine?",
+            "web_development_p" : "Develop your online project with our expert team!",
+            "web_development_item1" : "Professional and customized web design",
+            "web_development_item2" : "Professional and customized web design",
+            "web_development_item3" : "SEO positioning so you can be found on Google",
+            "web_development_item4" : "Ongoing technical support and maintenance",
+           
+            "uxui_design_question" : "Do you know the importance of design?",
+            "uxui_design_p" : "We are here to boost your business and its appearance!",
+            "uxui_design_item1" : "Optimized design to increase your sales conversion",
+            "uxui_design_item2" : "Focus on the best experience for your users",
+            "uxui_design_item3" : "Competitive and on-trend design",
+            "uxui_design_item4" : "Responsive design",
+
+            "staff_on_demand_question" : "Did you know about this modality?",
+            "staff_on_demand_p" : "Personalized and on-demand team!",
+            "staff_on_demand_item1" : "Team for an indefinite period of time",
+            "staff_on_demand_item2" : "High capacity human resources",
+            "staff_on_demand_item3" : "Flexible personnel to adapt to your project",
+       
+
         "analysis" : "Analysis",
         "design" : "Desing",
         "development" : "Development",
