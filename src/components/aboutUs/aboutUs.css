@@ -1,5 +1,5 @@
 .about-us {
-    padding-left: 60px;
+    padding: 3.125rem;
     /* width: 100%; */
     background-image: url('img/aboutus-background.png');
     background-position: center center;
@@ -24,17 +24,29 @@
     font-size: 550%;
     font-style: normal;
     font-weight: 300;
-    width: 80%;
+    width: 100%;
 }
 .about-us-bold{
     font-weight: bold;
-    font-size: 100%;
 }
 .single{    
-    font-family: "Roboto Condensed";
     font-style: normal;
-    width: 10%;
+    width: 9%;
 }
 .single, .about-us-bold{
-    font-weight: 300;
+    font-family: "Roboto Condensed";
+    font-size: 550%;
+}
+.our-team-container{
+    border-top: solid 2px  #FFFCE5;
+}
+
+.images{
+    width: 20rem;
+    height: 26.025rem;
+    image-resolution: cover;
+}
+.card{
+    background-color:transparent;
+    color: #FFFCE5;
 }
