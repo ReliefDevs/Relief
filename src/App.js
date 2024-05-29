@@ -1,7 +1,7 @@
 import Header from './components/header/Header';
-import Info from './components/seccion/Info';
-import Processes from './components/seccion/processes/Processes';
-import Services from './components/servicios/Services';
+import Info from './components/info/Info';
+import Services from './components/services-section/Services';
+import Processes from './components/processes/Processes';
 import { LanguageProvider } from './language';
 import AboutUs from './components/aboutUs/AboutUs';
 import ContactUs from './components/contactUs/ContactUs';

@@ -1,9 +1,7 @@
 import React from 'react';
 import"./processes.css"
-import { useLanguage } from '../../../language';   
-import { showDefinition } from '../../../processes';
-import "../../../language";
-import "../../../processes"
+import { useLanguage } from '../../language';   
+import { showDefinition } from '../../processes';
 
 
 const Processes = ()=>{
@@ -14,10 +12,10 @@ const Processes = ()=>{
     return(
     <section class='section-processes-container'>
         <h2 class="text-center text-md-start">{titleP}</h2>
-    <div class="container">
+    <div class="container-processes">
     
         <div class="row">
-            <div class="col-sm-12 justify-content-center col-md-5 d-flex col-lg-6">  
+            <div class="col-sm-12 justify-content-center col-md-7 d-flex col-lg-6">  
                 <div class='subtitle-box p-5 col-10 justify-content-center'>
                     <div class="subtitle" onClick={() =>showDefinition(0)}>1.{analysis}</div>
                     <div class="subtitle" onClick={() =>showDefinition(1)}>2.{design}</div>
@@ -27,8 +25,8 @@ const Processes = ()=>{
                     <div class="subtitle" onClick={() =>showDefinition(5)}>6.{repeat}</div>     
                 </div>
             </div>
-            <div class="col-sm-12 col-md-7 d-flex justify-content-center col-lg-6 definition-container">   
-                <div class='definition-box col-12 d-flex align-items-center'>
+            <div class="col-sm-12 col-md-5 d-flex justify-content-center align-items-center col-lg-6 definition-container">   
+                <div class='definition-box col-12 d-flex justify-content-center align-items-center '>
                     <div class="definition"><p>{analysisDef}</p></div>
                     <div class="definition"><p>{designDef}</p></div>
                     <div class="definition"><p>{developmentDef}</p></div>
