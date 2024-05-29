@@ -1,7 +1,7 @@
 import React from 'react';
 import"./processes.css"
 import { useLanguage } from '../../language';   
-import { showDefinition } from '../../processes';
+import { showDefinition } from '../../services/processes';
 
 
 const Processes = ()=>{

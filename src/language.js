@@ -1,8 +1,9 @@
 //Language.js
 
 import React, { createContext, useContext, useState } from 'react';
-import es from './es.json';
-import en from './en.json';
+
+import en from './translates/en.json';
+import es from './translates/es.json';
 
 
 const LanguageContext = createContext();
