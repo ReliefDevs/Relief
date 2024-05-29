@@ -23,6 +23,10 @@ li, .services-text{
     background-repeat: no-repeat;
 }
 
+.services-web-development {
+    gap: 25px;
+}
+
 
 .services-web-development-h3, .services-staff-on-demand-h3, .services-ux-ui-h3 {
     font-family: "Roboto Condensed";
