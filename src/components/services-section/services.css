@@ -1,0 +1,72 @@
+h2 {
+    /* color: #FFFCE5; */
+    font-family: "Roboto Flex";
+    font-size: 12.625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 98.438%; 
+    color: #FFFCE5;
+}
+
+
+li, .services-text{
+    color: #FFFCE5;
+    font-size: 1.875rem;
+    font-weight: 400;
+}
+
+.services {
+    padding:0 3.75rem;
+    background-image: url('./img/servicios-background.png');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.services-web-development {
+    gap: 25px;
+}
+
+
+.services-web-development-h3, .services-staff-on-demand-h3, .services-ux-ui-h3 {
+    font-family: "Roboto Condensed";
+    font-size: 5.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 98.438%;
+    color: #FFFCE5;
+}
+
+.services-web-development-image  {
+    background-image: url('./img/Group1.png');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 507.634px;
+    height: 562px;
+    flex-shrink: 0;
+}
+
+.services-ux-ui-image {
+    background-image: url('./img/Group2.png');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 521.758px;
+    height: 533.144px;
+    flex-shrink: 0;
+}
+
+.services-staff-on-demand-image {
+    background-image: url('./img/Group3.png');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 474.489px;
+    height: 639.938px;
+    flex-shrink: 0;
+}
+
+.services-ux-ui-box-p {
+    font-weight: 500; 
+}
