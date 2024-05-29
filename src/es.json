@@ -41,8 +41,8 @@
                 "title":"Nuestro Equipo"
         },
         "contactUs":{
-                "title": "Contáctanos",
-                "fullName": "nombre completo",
+                "title": "-Contáctanos",
+                "fullName": "Nombre completo",
                 "fullNameSupportText":"Ej: Juan Perez",
                 "mail": "Mail",
                 "mailSupportText":"Ej: juan.perez@gmail.com",
