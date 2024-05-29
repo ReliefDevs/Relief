@@ -9,7 +9,7 @@ import flagEn from './flags/eeuu.png';
 
  const Navbar = ()=>{
     const { language, resources, changeLanguage } = useLanguage();
-    const { services, portfolio, about,contact } = resources[language];
+    const { nav_bar} = resources[language];
 
     return(
         <div className="row">
@@ -18,10 +18,10 @@ import flagEn from './flags/eeuu.png';
             </div>
             <div className="col-8 d-flex justify-content-end align-content-center mt-3">
                 <ul className= "nav-list justify-content-evenly p-0">  
-                    <li className=' align-content-center '><a href="#servies">{services}</a></li>
-                    <li className=' align-content-center '><a href="#portfolio">{portfolio}</a></li>
-                    <li className=' align-content-center '><a href="#about-us">{about}</a></li>
-                    <li className=' align-content-center '><a href="#contact">{contact}</a></li>
+                    <li className=' align-content-center '><a href="#servies">{nav_bar.services}</a></li>
+                    <li className=' align-content-center '><a href="#portfolio">{nav_bar.portfolio}</a></li>
+                    <li className=' align-content-center '><a href="#about-us">{nav_bar.about}</a></li>
+                    <li className=' align-content-center '><a href="#contact">{nav_bar.contact}</a></li>
                 </ul>
             </div>
             <div className="col-2 d-flex justify-content-end align-content-center">

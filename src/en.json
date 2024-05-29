@@ -1,58 +1,101 @@
-    {
-        "services" : "services",
-        "portfolio" : "portfolio",
-        "about" : "aboust us",
-        "contact" : "contact",
-        "spanInfo3": "Digital ",
-        "spanInfo" : "relief",
-        "spanInfo2" : "web development",
-        "info" : " through ",
-        "proyects" : "Custom creations to stand out in the digital age",
-        "headerH3" : "innovation services",
+{
+    "header": {
+        "title": "innovation services", 
         "are" : "Are",
-        "legend" : "Start a project with us!",
         "layoutRight" : "Feel the relief, empowering business goals through ",
         "and" : "and",
         "the" : "the",
         "technology" : "technology, ",
         "innovation" : " innovation, ",
         "reliability" : "reliability",
-
+        "legend" : "Start a project with us!"
+    },
+    "tecno_relief":{
+        "spanInfo" : "relief",
+        "spanInfo3": "Digital ",
+        "spanInfo2" : "web development",
+        "info" : " through ",
+        "proyects" : "Custom creations to stand out in the digital age"
+    },
+    "nav_bar":{
+        "services" : "services",
+        "portfolio" : "portfolio",
+        "about" : "aboust us",
+        "contact" : "contact"
+    },
+    "services": {
+        "h2" : "Services",
+        "web_development":{
+            "question" : "Need a website that makes you shine?",
+            "p" : "Develop your online project with our expert team!",
+            "item1" : "Professional and customized web design",
+            "item2" : "Professional and customized web design",
+            "item3" : "SEO positioning so you can be found on Google",
+            "item4" : "Ongoing technical support and maintenance"
+        },
         
-            "services_h2" : "Services",
-            "web_development_question" : "Need a website that makes you shine?",
-            "web_development_p" : "Develop your online project with our expert team!",
-            "web_development_item1" : "Professional and customized web design",
-            "web_development_item2" : "Professional and customized web design",
-            "web_development_item3" : "SEO positioning so you can be found on Google",
-            "web_development_item4" : "Ongoing technical support and maintenance",
-           
-            "uxui_design_question" : "Do you know the importance of design?",
-            "uxui_design_p" : "We are here to boost your business and its appearance!",
-            "uxui_design_item1" : "Optimized design to increase your sales conversion",
-            "uxui_design_item2" : "Focus on the best experience for your users",
-            "uxui_design_item3" : "Competitive and on-trend design",
-            "uxui_design_item4" : "Responsive design",
+        "uxui_design":{        
+            "question" : "Do you know the importance of design?",
+            "p" : "We are here to boost your business and its appearance!",
+            "item1" : "Optimized design to increase your sales conversion",
+            "item2" : "Focus on the best experience for your users",
+            "item3" : "Competitive and on-trend design",
+            "item4" : "Responsive design"
+        },
+        "staff_on_demand":{        
+            "question" : "Did you know about this modality?",
+            "p" : "Personalized and on-demand team!",
+            "item1" : "Team for an indefinite period of time",
+            "item2" : "High capacity human resources",
+            "item3" : "Flexible personnel to adapt to your project"
+        }
+    },
+    "processes":{
+        "title": "Processes",
+        "sub_title":{
+            "analysis" : "Analysis",
+            "design" : "Desing",
+            "development" : "Development",
+            "testing" : "testing",
+            "maintenance" : "Maintenance",
+            "repeat" : "Repeat"
+        },
+        "defition":{
+            "DEUDA TECNICA": "ACA FALTA TRADUCIR BIEN",
+            "analysis" : "Analysis is the process of breaking down a complex topic or substance into smaller parts to gain a better understanding of it. The technique has been applied in the study of mathematics and logic since before Aristotle (384–322 BC), although analysis as a formal concept is a relatively recent development.",
+            "design": "Design is the process of preliminary mental configuration, or prefiguration, that precedes the search for solutions to make a product useful and attractive. It is usually applied in the context of industry, engineering, architecture, communication, marketing, fashion and other disciplines that require creativity.",
+            "development": "Human development, according to the United Nations Development Program, is that which places the development of individuals at the center of development, so that they enjoy more opportunities and a high standard of living.1​2",
+            "testing" : "A proof is a fact or testing, a reason or argument, used to demonstrate the truth or falsity of something, an action, a thesis, a theory.",
+            "maintenance" : "Maintenance is defined as all actions that aim to preserve an item or restore it to a state in which it can perform some required function.1 These actions include the combination of the corresponding technical and administrative actions.",
+            "repeat" : "to. please.b. your hands up! I repeat, come out with your hands up! Come out with your hands up! Again, come out with your hands up!"
+        }
+    },
 
-            "staff_on_demand_question" : "Did you know about this modality?",
-            "staff_on_demand_p" : "Personalized and on-demand team!",
-            "staff_on_demand_item1" : "Team for an indefinite period of time",
-            "staff_on_demand_item2" : "High capacity human resources",
-            "staff_on_demand_item3" : "Flexible personnel to adapt to your project",
-       
 
-        "analysis" : "Analysis",
-        "design" : "Desing",
-        "development" : "Development",
-        "testing" : "testing",
-        "maintenance" : "Maintenance",
-        "repeat" : "Repeat",
-        "analysisDef" : "Analysis is the process of breaking down a complex topic or substance into smaller parts to gain a better understanding of it. The technique has been applied in the study of mathematics and logic since before Aristotle (384–322 BC), although analysis as a formal concept is a relatively recent development.",
-        "designDef": "Design is the process of preliminary mental configuration, or prefiguration, that precedes the search for solutions to make a product useful and attractive. It is usually applied in the context of industry, engineering, architecture, communication, marketing, fashion and other disciplines that require creativity.",
-        "developmentDef": "Human development, according to the United Nations Development Program, is that which places the development of individuals at the center of development, so that they enjoy more opportunities and a high standard of living.1​2",
-        "testingDef" : "A proof is a fact or testing, a reason or argument, used to demonstrate the truth or falsity of something, an action, a thesis, a theory.",
-        "maintenanceDef" : "Maintenance is defined as all actions that aim to preserve an item or restore it to a state in which it can perform some required function.1 These actions include the combination of the corresponding technical and administrative actions.",
-        "repeatDef" : "to. repeat Repeat the sentence, please.Repetite the phrase, please.b. reiterate (a request or demand)Come out with your hands up! I repeat, come out with your hands up! Come out with your hands up! Again, come out with your hands up!",
-        "titleP" : "Processes"
 
-    }
+
+
+
+"aboutUs":{
+    "DEUDA TECNICA": "ESTO ESTA SIN TRADUCIR",
+    "title":"Nosotros",
+    "text": "Somos un equipo comprometido con el crecimiento que ayuda a nuestros clientes a alcanzar sus metas mediante la innovación. Creemos en la colaboración, la comunicación y el trabajo en equipo. Nos enfocamos en desarrollar soluciones sólidas para nuestros clientes.",
+    "phrase": "Transformamos tus ideas",
+    "phraseBold": " realidad"
+},
+
+"ourTeam":{
+    "title":"Nuestro Equipo"
+},
+"contactUs":{
+    "title": "-Contáctanos",
+    "fullName": "Nombre completo",
+    "fullNameSupportText":"Ej: Juan Perez",
+    "mail": "Mail",
+    "mailSupportText":"Ej: juan.perez@gmail.com",
+    "text": "Mensaje",
+    "textSupportText":"Ej: Peoyectos, ideas, comentarios, etc."
+
+}
+
+}
