@@ -17,10 +17,14 @@ li, .services-text{
 
 .services {
     padding:0 3.75rem;
-    background-image: url('servicios-background.png');
+    background-image: url('./img/servicios-background.png');
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.services-web-development {
+    gap: 25px;
 }
 
 
@@ -34,7 +38,7 @@ li, .services-text{
 }
 
 .services-web-development-image  {
-    background-image: url('Group1.png');
+    background-image: url('./img/Group1.png');
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -44,7 +48,7 @@ li, .services-text{
 }
 
 .services-ux-ui-image {
-    background-image: url('Group2.png');
+    background-image: url('./img/Group2.png');
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -54,7 +58,7 @@ li, .services-text{
 }
 
 .services-staff-on-demand-image {
-    background-image: url('Group3.png');
+    background-image: url('./img/Group3.png');
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;

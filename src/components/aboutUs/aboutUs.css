@@ -1,0 +1,52 @@
+.about-us {
+    padding: 3.125rem;
+    /* width: 100%; */
+    background-image: url('img/aboutus-background.png');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Roboto flex";
+    color: #FFFCE5;
+}
+.about-us-title{
+    font-size: 900%;
+    font-weight: 400;
+}
+.about-us-text{
+    font-family: "Roboto Flex";
+    font-size: 300%;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.about-us-phrase{
+    font-family: "Roboto Condensed";
+    font-size: 550%;
+    font-style: normal;
+    font-weight: 300;
+    width: 100%;
+}
+.about-us-bold{
+    font-weight: bold;
+}
+.single{    
+    font-style: normal;
+    width: 9%;
+}
+.single, .about-us-bold{
+    font-family: "Roboto Condensed";
+    font-size: 550%;
+}
+.our-team-container{
+    border-top: solid 2px  #FFFCE5;
+}
+
+.images{
+    width: 20rem;
+    height: 26.025rem;
+    image-resolution: cover;
+}
+.card{
+    background-color:transparent;
+    color: #FFFCE5;
+}

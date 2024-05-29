@@ -3,7 +3,8 @@ import Info from './components/info/Info';
 import Services from './components/services-section/Services';
 import Processes from './components/processes/Processes';
 import { LanguageProvider } from './language';
-
+import AboutUs from './components/aboutUs/AboutUs';
+import ContactUs from './components/contactUs/ContactUs';
 
 const App = () => {
   return (
@@ -12,6 +13,8 @@ const App = () => {
       <Info/>
       <Services/>
       <Processes/>  
+      <AboutUs/>
+      <ContactUs/>
     </LanguageProvider>
   );
 };
