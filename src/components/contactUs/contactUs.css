@@ -1,0 +1,28 @@
+.contact-us{
+    background-color: #FFFDEF; 
+    padding: 3.125rem;
+}
+
+.contact-title{
+    color: #005C57;
+    width: 90%;
+    font-size: 1000%;
+    font-weight: 500;
+}
+md-filled-text-field{
+    background-color:#FFFDEF ;
+    --md-filled-text-field-container-color: transparent;
+    --md-filled-text-field-focus-active-indicator-color: #005C57;
+    --md-filled-text-field-focus-label-text-color:#005C57 ;
+    --md-filled-text-field-focus-caret-color:#005C57; 
+}
+#full-name{
+    width: 40%;
+}
+#mail{
+    width: 50%;
+}
+#input-text{
+    width: 60%;
+}
+
