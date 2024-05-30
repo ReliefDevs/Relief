@@ -1,0 +1,85 @@
+
+    .section-processes-container{ 
+        background: #FFFDEF;
+        width: 100%;
+        padding-bottom: 8vh;
+     }
+
+     .section-processes-container h2{
+        color: #005C57;
+        font-family: "Roboto Flex";
+        font-size:11.375rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 98.438%; /* 63px */
+        display: flex;
+        padding-left: 6vh;
+
+     }
+     
+     
+     .subtitle-box {
+        border-left: solid 0.125rem;
+        color: #005C57;
+        text-align: center;
+        border-left: solid 0.125rem;
+      
+     }
+     
+     .definition-box{
+        border-top: none;
+        height: 100%;
+        text-align: center;
+        color: #005C57;
+        padding-right: 7vh;
+        
+     }
+     
+     .subtitle {
+        padding-bottom: 1.5vh;
+        text-wrap: balance;
+        color: #005C57;
+        font-family: "Roboto Flex";
+        font-size: 2.6rem;
+        font-style: italic;
+        font-weight: 500;
+        line-height: 98.438%; /* 47.25px */
+        cursor: pointer;
+     }
+     
+     .definition {
+        padding-top: 15%;
+        height: 100%;
+        border-right: solid 0.125rem;
+        border-left: solid 0.125rem;
+        text-wrap: balance;
+        color: #005C57;
+        font-family: "Roboto Flex";
+        font-size: 2.875rem;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 98.438%; /* 39.375px */
+        display: none;
+         
+     }
+     
+     .show {
+        display: block;
+     }
+  
+     .bold {
+        font-weight: bold;
+    }
+
+   
+
+  
+
+ 
+
+
+
+
+
+
+

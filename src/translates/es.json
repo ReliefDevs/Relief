@@ -1,0 +1,95 @@
+{
+        "header" :{
+                "title": "Servicios de innovación",
+                "are" : "Somos",
+                "layoutRight" : "Una sensación de alivio, potenciando los objetivos comerciales a través de la ",
+                "and" : "y",
+                "the" : "la",
+                "technology" : "tecnologia, ",
+                "innovation" : " innovacion ",
+                "reliability" : "seriedad",
+                "legend" :"Comienza tu proyecto ahora!"
+        },
+        "tecno_relief":{
+                "spanInfo3": "Digital ",
+                "spanInfo" : "Alivio",
+                "spanInfo2" : "desarrollo web",
+                "info" : " tecnológico a través del ",
+                "proyects": "Conoce nuestros servicios y soluciones enfocadas a tu proyecto"
+        },
+        "nav_bar":{
+                "services" : "servicios",
+                "portfolio" : "portafolio",
+                "about": "sobre nosotros",
+                "contact" : "contacto"
+        },
+
+        "services": {
+                "h2" : "Servicios",
+                "web_development":{
+                        "question" : "¿Necesitas una web que te haga brillar?",
+                        "p" : "¡Desarrolla tu proyecto online con nuestro equipo experto!",
+                        "item1" : "Diseño web profesional y personalizado",
+                        "item2" : "Soluciones a medida para tus necesidades",
+                        "item3" : "Posicionamiento SEO para que te encuentren en Google",
+                        "item4" : "Soporte técnico y mantenimiento continuo"
+                },
+                
+                "uxui_design":{
+                        "question" : "¿Conoces la importancia del diseño?",
+                        "p" : "¡Estamos aqui para impulsar tu negocio y su apariencia!",
+                        "item1" : "Diseño optimizado para incrementar tu conversión ",
+                        "item2" : "Enfoque en la mejor experiencia para tus usuarios",
+                        "item3" : "Diseño competitivo y en tendencia",
+                        "item4" : "Diseño responsive"
+                },
+                "staff_on_demand":{
+                        "question" : "¿Conocias esta modalidad?",
+                        "p" : "¡Equipos personalizados y a demanda!",
+                        "item1" : "Equipo por tiempo indeterminado",
+                        "item2" : "Recursos humanos de alta capacidad",
+                        "item3" : "Personal flexible para adaptarse a tu proyecto"
+                }
+        },
+        "processes":{
+                "title": "Procesos",
+                "sub_title":{
+                        "analysis" : "Analisis",
+                        "design" : "Diseño",
+                        "development" : "Desarrollo",
+                        "testing" : "Pruebas",
+                        "maintenance" : "Mantenimiento",
+                        "repeat" : "Repeat"
+                },
+                "defition":{
+                        "analysis" : "Se define el problema y la solucion. Es como dibujar el plano de la casa: defines qué habitaciones tendrá, dónde estaran las puertas y ventanas.",
+                        "design": "Aquí se diseñan las pantallas, los botones, los menús y todo lo que el usuario verá e interactuará. Es como decorar la casa: decides el estilo y los colores.",
+                        "development": "En esta etapa, comenzamos el desarrollo de software. Es el proceso de construcción de la casa: desde los cimientos hasta la decoracion.",
+                        "testing" : "Aseguramos la calidad del producto desarrollado. Es como revisar la casa antes de mudarse: Se comprueba que todo funcione correctamente.",
+                        "maintenance" : "Una vez que tu web este en Google, se continúa trabajando en ella. Es como cuidar la casa: se pintan las paredes y se actualiza la decoración.",
+                        "repeat" : "Se vuelve a comenzar el ciclo para continuar mejorando. Es como agregarle una extención a la casa: continuas con el crecimiento"
+                }
+            },
+
+        "aboutUs":{
+                "title":"Nosotros",
+                "text": "Somos un equipo comprometido con el crecimiento que ayuda a nuestros clientes a alcanzar sus metas mediante la innovación. Creemos en la colaboración, la comunicación y el trabajo en equipo. Nos enfocamos en desarrollar soluciones sólidas para nuestros clientes.",
+                "phrase": "Transformamos tus ideas",
+                "phraseBold": " realidad"
+        },
+
+        "ourTeam":{
+                "title":"Nuestro Equipo"
+        },
+        "contactUs":{
+                "title": "-Contáctanos",
+                "fullName": "Nombre completo",
+                "fullNameSupportText":"Ej: Juan Perez",
+                "mail": "Mail",
+                "mailSupportText":"Ej: juan.perez@gmail.com",
+                "text": "Mensaje",
+                "textSupportText":"Ej: Peoyectos, ideas, comentarios, etc."
+
+        }
+
+}
