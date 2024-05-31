@@ -10,7 +10,7 @@ const AboutUs =() =>{
     const {aboutUs, ourTeam} = resources[language];
 
     return(
-        <section className="about-us pt-4" >
+        <section className="about-us pt-4" id='about-us' >
                 {/* Seccion About US */}
                 <div className="col-12 p-0">
                     <h4 className='about-us-title'>{aboutUs.title}</h4>

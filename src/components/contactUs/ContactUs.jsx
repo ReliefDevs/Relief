@@ -46,7 +46,7 @@ const ContactUs =() =>{
 
 
     return(
-        <section className="contact-us" >
+        <section className="contact-us" id="contact" >
                 <div className="col-12">
                     <h1 className='contact-title '>{contactUs.title}</h1>
                 </div>

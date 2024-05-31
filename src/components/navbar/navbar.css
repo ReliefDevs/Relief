@@ -3,7 +3,7 @@
 
 .nav-list {
     display: flex;
-    width: 80%;
+    width: 90%;
     list-style: none;
     gap: 8.75rem;
 }
@@ -44,6 +44,11 @@ a{
     font-weight: 400;
     line-height: normal;
 }
+
+#about, .about{
+    width: 140%;
+}
+
 /*@media (min-width: 440px) {
 .nav-container{
     display: flex;

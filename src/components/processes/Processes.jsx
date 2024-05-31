@@ -10,7 +10,7 @@ const Processes = ()=>{
 
 
     return(
-    <section className='section-processes-container'>
+    <section className='section-processes-container' id='processes'>
         <h2 className="text-center text-md-start">{processes.title}</h2>
     <div className="container-processes">
     
