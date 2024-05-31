@@ -34,7 +34,9 @@
         padding-right: 7vh;
         
      }
-     
+     #processes-row{
+      width: 100%;
+     }
      .subtitle {
         padding-bottom: 1.5vh;
         text-wrap: balance;

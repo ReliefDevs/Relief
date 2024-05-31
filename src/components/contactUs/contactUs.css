@@ -17,7 +17,6 @@
     font-weight: 600;
     line-height: 98.438%; /* 63px */
     display: flex;
-    padding-left: 6vh;
 }
 md-filled-text-field{
     background-color:var(--main-white-color) ;
@@ -26,13 +25,24 @@ md-filled-text-field{
     --md-filled-text-field-focus-label-text-color:var(--main-green-color) ;
     --md-filled-text-field-focus-caret-color:var(--main-green-color); 
 }
+.contact-img{
+    width: 80%;
+    height: 90%;
+    
+}
+#input-text{
+    margin-bottom: 2rem;
+}
+md-filled-button{ 
+    --md-filled-button-container-color: var(--main-green-color); 
+    --md-filled-button-label-text-color: var(--main-white-color); 
+}
+/* 
 #full-name{
     width: 40%;
 }
 #mail{
     width: 50%;
 }
-#input-text{
-    width: 60%;
-}
+ */
 
