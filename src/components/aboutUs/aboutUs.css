@@ -45,6 +45,7 @@
     width: 20rem;
     height: 26.025rem;
     image-resolution: cover;
+    border-radius: 7%;
 }
 .card{
     background-color:transparent;
