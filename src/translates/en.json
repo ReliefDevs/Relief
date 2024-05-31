@@ -56,7 +56,7 @@
             "analysis" : "Analysis",
             "design" : "Desing",
             "development" : "Development",
-            "testing" : "testing",
+            "testing" : "Testing",
             "maintenance" : "Maintenance",
             "repeat" : "Repeat"
         },
@@ -85,16 +85,19 @@
 },
 
 "ourTeam":{
-    "title":"Nuestro Equipo"
+    "title":""
 },
 "contactUs":{
-    "title": "-Contáctanos",
-    "fullName": "Nombre completo",
-    "fullNameSupportText":"Ej: Juan Perez",
-    "mail": "Mail",
-    "mailSupportText":"Ej: juan.perez@gmail.com",
-    "text": "Mensaje",
-    "textSupportText":"Ej: Peoyectos, ideas, comentarios, etc."
+    "title": "",
+    "fullName": "",
+    "fullNameSupportText":"",
+    "mail": "",
+    "mailSupportText":"",
+    "text": "",
+    "textSupportText":"",
+    "sendButton":"",
+    "sendButtonSupportTextOK":"",
+    "sendButtonSupportTextNotOK":""
 
 }
 

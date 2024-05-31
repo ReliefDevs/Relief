@@ -7,7 +7,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #FFFDEF; 
+    background: var(--main-white-color); 
     padding-left: 2vh; 
 }
 
@@ -17,7 +17,7 @@
 }
 
 .seccion-info-es {
-    color: #005C57;
+    color: var(--main-green-color);
     padding-top: 6vh;
     font-family: "Roboto Flex";
     font-size:8.75rem;
@@ -29,7 +29,7 @@
 
 .seccion-info-en {
     padding-top: 6vh;
-    color: #005C57;
+    color: var(--main-green-color);
     font-family: "Roboto Flex";
     font-style: normal;
     font-weight: 400;
@@ -51,7 +51,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    color: #005C57;
+    color: var(--main-green-color);
     text-decoration: none;
     font-family: "Roboto Flex";
     font-size: 2.25rem;

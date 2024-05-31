@@ -13,7 +13,7 @@
     height: 40px;
 }
 a{  
-    color: #fff;
+    color: var(--main-white-color);
     font-family: "Roboto Condensed";
     font-size: 100%;
     font-style: normal;
@@ -36,7 +36,7 @@ a{
 .nav-name{
     display: flex;
     align-items: center;
-    color: #fff;
+    color: var(--main-white-color);
     flex-shrink: 0;
     font-family: "Kite One";
     font-size: 2.5rem;

@@ -14,7 +14,7 @@ const ContactUs =() =>{
     return(
         <section className="contact-us" >
                 <div className="col-12">
-                    <h1 className='contact-title text-center'>{contactUs.title}</h1>
+                    <h1 className='contact-title '>{contactUs.title}</h1>
                 </div>
                 <div className="">
                     <form action="" className='d-flex flex-column'>

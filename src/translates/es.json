@@ -82,14 +82,16 @@
                 "title":"Nuestro Equipo"
         },
         "contactUs":{
-                "title": "-Contáctanos",
+                "title": "Contáctanos",
                 "fullName": "Nombre completo",
                 "fullNameSupportText":"Ej: Juan Perez",
                 "mail": "Mail",
                 "mailSupportText":"Ej: juan.perez@gmail.com",
                 "text": "Mensaje",
-                "textSupportText":"Ej: Peoyectos, ideas, comentarios, etc."
-
+                "textSupportText":"Ej: Peoyectos, ideas, comentarios, etc.",
+                "sendButton":"enviar",
+                "sendButtonSupportTextOK":"Mensaje enviado correctamente",
+                "sendButtonSupportTextNotOK":"Mensaje no enviado, pruebe nuevamente"
         }
 
 }

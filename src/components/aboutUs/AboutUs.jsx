@@ -31,7 +31,7 @@ const AboutUs =() =>{
                     </div>
                     <div className="row">
                         <div className="col-4  d-flex justify-content-center align-content-around">
-                            <div className="card ">
+                            <div className="card">
                                 <img className="img-fluid images" src={require('./img/alan.jpg')} alt="" />  
                                 <h5 className='card-title text-center mt-2'>Alan Diaz</h5>
                                 <p class="card-text text-center ">CEO - Scrum Master</p> 
@@ -39,19 +39,35 @@ const AboutUs =() =>{
                         </div>
                     
                         <div className="col-4  d-flex justify-content-center">
-                            <img className="img-fluid images p-1" src={require('./img/tomi.png')} alt="" />  
+                            <div className="card ">
+                            <img className="img-fluid images" src={require('./img/tomi.png')} alt="" /> 
+                                <h5 className='card-title text-center mt-2'>Alan Diaz</h5>
+                                <p class="card-text text-center ">CEO - Scrum Master</p> 
+                            </div> 
                         </div>
                     
                         <div className="col-4 d-flex justify-content-center">
-                            <img className="img-fluid p-5" src={require('./img/alan.jpg')} alt="" />  
+                            <div className="card ">
+                            <img className="img-fluid images" src={require('./img/tomi.png')} alt="" /> 
+                                <h5 className='card-title text-center mt-2'>Alan Diaz</h5>
+                                <p class="card-text text-center ">CEO - Scrum Master</p> 
+                            </div> 
                         </div>
                     
                         <div className="col-4  d-flex justify-content-center">
-                            <img className="img-fluid p-5" src={require('./img/alan.jpg')} alt="" />  
+                            <div className="card ">
+                            <img className="img-fluid images" src={require('./img/tomi.png')} alt="" /> 
+                                <h5 className='card-title text-center mt-2'>Alan Diaz</h5>
+                                <p class="card-text text-center ">CEO - Scrum Master</p> 
+                            </div> 
                         </div>
                     
                         <div className="col-4  d-flex justify-content-center">
-                            <img className="img-fluid p-5" src={require('./img/alan.jpg')} alt="" />  
+                            <div className="card ">
+                            <img className="img-fluid images" src={require('./img/tomi.png')} alt="" /> 
+                                <h5 className='card-title text-center mt-2'>Alan Diaz</h5>
+                                <p class="card-text text-center ">CEO - Scrum Master</p> 
+                            </div> 
                         </div>
                     </div>
 

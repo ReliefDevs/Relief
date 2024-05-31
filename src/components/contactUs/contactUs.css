@@ -1,20 +1,30 @@
 .contact-us{
-    background-color: #FFFDEF; 
+    background-color: var(--main-white-color); 
     padding: 3.125rem;
 }
 
-.contact-title{
-    color: #005C57;
+/* .contact-title{
+    color: var(--main-green-color);
     width: 90%;
     font-size: 1000%;
     font-weight: 500;
+} */
+.contact-title{
+    color: var(--main-green-color);
+    font-family: "Roboto Flex";
+    font-size:11.375rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 98.438%; /* 63px */
+    display: flex;
+    padding-left: 6vh;
 }
 md-filled-text-field{
-    background-color:#FFFDEF ;
+    background-color:var(--main-white-color) ;
     --md-filled-text-field-container-color: transparent;
-    --md-filled-text-field-focus-active-indicator-color: #005C57;
-    --md-filled-text-field-focus-label-text-color:#005C57 ;
-    --md-filled-text-field-focus-caret-color:#005C57; 
+    --md-filled-text-field-focus-active-indicator-color: var(--main-green-color);
+    --md-filled-text-field-focus-label-text-color:var(--main-green-color) ;
+    --md-filled-text-field-focus-caret-color:var(--main-green-color); 
 }
 #full-name{
     width: 40%;

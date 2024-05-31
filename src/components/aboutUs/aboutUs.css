@@ -6,7 +6,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     font-family: "Roboto flex";
-    color: #FFFCE5;
+    color: var(--main-white-color);
 }
 .about-us-title{
     font-size: 900%;
@@ -38,7 +38,7 @@
     font-size: 550%;
 }
 .our-team-container{
-    border-top: solid 2px  #FFFCE5;
+    border-top: solid 2px  var(--main-white-color);
 }
 
 .images{
@@ -48,5 +48,7 @@
 }
 .card{
     background-color:transparent;
-    color: #FFFCE5;
+    color: var(--main-white-color);
+    margin-bottom: 4rem;
+    border: 0;
 }
