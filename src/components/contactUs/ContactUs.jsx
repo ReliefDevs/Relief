@@ -1,25 +1,29 @@
 
-import React from 'react';
 import "./contactUs.css" 
 import { useLanguage } from '../../language';
 import "../../language";
 import '@material/web/textfield/filled-text-field.js';
+import '@material/web/dialog/dialog.js' 
+import '@material/web/button/text-button'
 import '@material/web/button/filled-button'
-
-/* import React, { useRef } from 'react';
-import emailjs from '@emailjs/browser'; */
+import React, { useRef } from 'react';
+import emailjs, { send } from '@emailjs/browser'; 
 
 
 const ContactUs =() =>{
 
     const {language, resources} = useLanguage();
     const {contactUs} = resources[language];
-    //const form = useRef();
+    const form = useRef();
 
-/*     const sendEmail = (e) => {
+     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs
+        document.getElementById("email-form").reset();
+        let dialog = document.getElementById("dialog");
+        dialog.show();
+        /*Queda comentado por el limite mensual de 200 mails */
+       /*  emailjs
         .sendForm(
             'service_c6fs9wo', 
             'template_y9j1u5n', 
@@ -28,13 +32,15 @@ const ContactUs =() =>{
         })
         .then(
             () => {
-            console.log('SUCCESS!');
+                document.getElementById("email-form").reset();
+                let dialog = document.getElementById("dialog");
+                dialog.show();
             },
             (error) => {
-            console.log('FAILED...', error.text);
+                alert('FAILED...', error.text);
             },
-        );
-    }; */
+        ); */
+    }; 
 
 
 
@@ -46,7 +52,7 @@ const ContactUs =() =>{
                 </div>
                 <div className="row ">
                 <div className="col-6">
-                    <form action=""  className='d-flex flex-column'>
+                    <form id="email-form" action="" ref={form} onSubmit={sendEmail} className='d-flex flex-column mb-3'>
 
                         <md-filled-text-field 
                             type="text"
@@ -76,9 +82,21 @@ const ContactUs =() =>{
                         <md-filled-button 
                         id="complete-button"
                         type="submit"
-                        value={contactUs.sendButton}
-                        ></md-filled-button>       
+                        >{contactUs.sendButton}</md-filled-button>       
+                    </form>
+
+                    <md-dialog id="dialog">
+                        <div slot="headline">
+                            Dialog title
+                        </div>
+                        <form slot="content" id="form-id" method="dialog">
+                            A simple dialog with free-form content.
                         </form>
+                        <div slot="actions">
+                            <md-text-button form="form-id">Ok</md-text-button>
+                        </div>
+                    </md-dialog>
+
                 </div>
                 <div className="col-6 d-flex justify-content-center">
                     <img 
@@ -86,7 +104,7 @@ const ContactUs =() =>{
                         className='img-fluid contact-img'
                         alt=""/>
                 </div>
-                </div>
+            </div>
         </section>
     )
 }
