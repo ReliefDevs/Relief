@@ -19,7 +19,7 @@
         },
         "nav_bar":{
                 "services" : "servicios",
-                "processes" : "Procesos",
+                "processes" : "procesos",
                 "about": "sobre nosotros",
                 "contact" : "contacto"
         },
@@ -59,7 +59,7 @@
                         "development" : "Desarrollo",
                         "testing" : "Pruebas",
                         "maintenance" : "Mantenimiento",
-                        "repeat" : "Repeat"
+                        "repeat" : "Repetir"
                 },
                 "defition":{
                         "analysis" : "Se define el problema y la solucion. Es como dibujar el plano de la casa: defines qué habitaciones tendrá, dónde estaran las puertas y ventanas.",

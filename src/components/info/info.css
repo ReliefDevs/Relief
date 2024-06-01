@@ -2,24 +2,25 @@
 
 .seccion-info-container{
     display: flex;
-    height: auto;
-    width:auto;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     background: var(--main-white-color); 
-    padding-left: 2vh; 
+    height:auto;
+    align-items: start;
+    padding: var(--main-container-padding); 
 }
 
 .seccion-info{
+    width: 100%;
+    height: auto;
+    align-items: start;
     flex-shrink: 0;
     margin: 0;
 }
 
 .seccion-info-es {
     color: var(--main-green-color);
-    padding-top: 6vh;
-    font-family: "Roboto Flex";
+    font-family: var(--main-font-family);
     font-size:8.75rem;
     align-items: start;
     font-style: normal;
@@ -28,9 +29,8 @@
 }
 
 .seccion-info-en {
-    padding-top: 6vh;
     color: var(--main-green-color);
-    font-family: "Roboto Flex";
+    font-family: var(--main-font-family);
     font-style: normal;
     font-weight: 400;
     line-height: 98.438%; /* 157.5px */
@@ -40,8 +40,6 @@
 
 .seccion-proyects{
     width: 100%;
-    padding-right: 2vh;
-    padding-top: 2vh;
     flex-shrink: 0;
     padding-top: 5vh;
 }
@@ -53,29 +51,12 @@
     align-items: center;
     color: var(--main-green-color);
     text-decoration: none;
-    font-family: "Roboto Flex";
+    font-family: var(--main-font-family);
     font-size: 2.25rem;
     font-style: normal;
     font-weight: 300;
     line-height: 98.438%; /* 17.719px */
 }
-
-.seccion-info-container{
-    display: flex;
-    height:auto;
-    padding-left:10vh;
-    padding-bottom: 10vh;
-    align-items: start;
-}
-
-
-.seccion-info{
-    padding-top: 11vh;
-    width: 100%;
-    height: auto;
-    align-items: start;
-}
-
 
 .arrow{
     width: 5.5vh;

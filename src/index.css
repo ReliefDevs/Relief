@@ -4,6 +4,8 @@
 :root {
   --main-green-color: #005C57;
   --main-white-color: #FFFDEF;
+  --main-container-padding: 3.125rem;
+  --main-font-family: "Roboto Flex";
 }
 
 body {

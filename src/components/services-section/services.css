@@ -1,6 +1,5 @@
 h2 {
-    /* color: var(--main-white-color); */
-    font-family: "Roboto Flex";
+    font-family: var(--main-font-family);
     font-size: 12.625rem;
     font-style: normal;
     font-weight: 400;
@@ -16,7 +15,7 @@ li, .services-text{
 }
 
 .services {
-    padding:0 3.75rem;
+    padding: var(--main-container-padding); 
     background-image: url('./img/servicios-background.png');
     background-position: center center;
     background-size: cover;
@@ -24,7 +23,7 @@ li, .services-text{
 }
 
 .services-web-development {
-    gap: 25px;
+    gap: 1.563rem;
 }
 
 
@@ -42,8 +41,8 @@ li, .services-text{
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 507.634px;
-    height: 562px;
+    width: 31.727rem;
+    height: 35.125rem;
     flex-shrink: 0;
 }
 
@@ -52,8 +51,8 @@ li, .services-text{
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 521.758px;
-    height: 533.144px;
+    width: 32.61rem;
+    height: 33.322rem;
     flex-shrink: 0;
 }
 
@@ -62,8 +61,8 @@ li, .services-text{
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 474.489px;
-    height: 639.938px;
+    width: 29.656rem;
+    height: 39.996rem;
     flex-shrink: 0;
 }
 

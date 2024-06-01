@@ -1,11 +1,11 @@
 .about-us {
-    padding: 3.125rem;
+    padding: var(--main-container-padding); 
     /* width: 100%; */
     background-image: url('img/aboutus-background.png');
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    font-family: "Roboto flex";
+    font-family: var(--main-font-family);
     color: var(--main-white-color);
 }
 .about-us-title{
@@ -13,7 +13,7 @@
     font-weight: 400;
 }
 .about-us-text{
-    font-family: "Roboto Flex";
+    font-family: "Roboto Condensed";
     font-size: 300%;
     font-style: normal;
     font-weight: 300;

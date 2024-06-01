@@ -11,7 +11,7 @@ const Services = () => {
     return(
         <section className="services" id="servies">
             <article className="row pb-5 w-auto m-0">
-                <h2 className="py-5 w-auto">{services.h2}</h2>
+                <h2 className=" mb-5 w-auto p-0">{services.h2}</h2>
                 <div className="services-web-development d-flex justify-content-start align-item-center m-0 p-0">
                     <div>
                         <h3 className="services-web-development-h3">Web Development</h3>
