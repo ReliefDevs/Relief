@@ -10,13 +10,15 @@ import React, { useRef } from 'react';
 import emailjs, { send } from '@emailjs/browser'; 
 
 
-const ContactUs =() =>{
 
+
+const ContactUs=(messageState) =>{
+    
     const {language, resources} = useLanguage();
     const {contactUs} = resources[language];
     const form = useRef();
-
-     const sendEmail = (e) => {
+    var messageState ="ok";
+    const sendEmail = (e) => {
         e.preventDefault();
 
         document.getElementById("email-form").reset();
@@ -37,12 +39,42 @@ const ContactUs =() =>{
                 dialog.show();
             },
             (error) => {
+
                 alert('FAILED...', error.text);
             },
         ); */
     }; 
 
-
+    const messageRendering = (messageState, textOk, textFail, titleOk, titleFail, closeButton)=>{
+        if (messageState == "ok"){
+            return (
+                <md-dialog id="dialog">
+                    <div slot="headline" id="title-ok">
+                        {titleOk}
+                    </div>
+                    <form slot="content" id="text-ok" method="dialog">
+                        {textOk}
+                    </form>
+                    <div slot="actions">
+                        <md-text-button form="text-ok"> {closeButton}</md-text-button>
+                    </div>
+                </md-dialog>
+            )
+        }
+        return (
+            <md-dialog id="dialog">
+                <div slot="headline" id="title-fail">
+                    {titleFail}
+                </div>
+                <form slot="content" id="text-fail" method="dialog">
+                    {textFail}
+                </form>
+                <div slot="actions">
+                    <md-text-button form="text-fail"> {closeButton}</md-text-button>
+                </div>
+            </md-dialog>
+        )
+    }
 
 
     return(
@@ -85,18 +117,13 @@ const ContactUs =() =>{
                         >{contactUs.sendButton}</md-filled-button>       
                     </form>
 
-                    <md-dialog id="dialog">
-                        <div slot="headline">
-                            Dialog title
-                        </div>
-                        <form slot="content" id="form-id" method="dialog">
-                            A simple dialog with free-form content.
-                        </form>
-                        <div slot="actions">
-                            <md-text-button form="form-id">Ok</md-text-button>
-                        </div>
-                    </md-dialog>
-
+                    {messageRendering(  messageState, 
+                                        contactUs.popup.textOk, 
+                                        contactUs.popup.textFail, 
+                                        contactUs.popup.titleOk, 
+                                        contactUs.popup.titleFail,
+                                        contactUs.popup.closeButton
+                    )}
                 </div>
                 <div className="col-6 d-flex justify-content-center">
                     <img 

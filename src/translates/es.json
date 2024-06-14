@@ -90,8 +90,13 @@
                 "text": "Mensaje",
                 "textSupportText":"Ej: Peoyectos, ideas, comentarios, etc.",
                 "sendButton":"enviar",
-                "sendButtonSupportTextOK":"Mensaje enviado correctamente",
-                "sendButtonSupportTextNotOK":"Mensaje no enviado, pruebe nuevamente"
+                "popup":{
+                        "titleOk":"Hecho!",
+                        "textOk": "Recibimos tu mensaje, te enviaremos una respuesta lo mas pronto posible.",
+                        "closeButton": "Cerrar",
+                        "titleFail":"Ups!",
+                        "textFail": "Ocurrio un error, intenta nuevamente."
+                }
         }
 
 }

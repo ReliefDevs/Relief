@@ -3,12 +3,6 @@
     padding: var(--main-container-padding); 
 }
 
-/* .contact-title{
-    color: var(--main-green-color);
-    width: 90%;
-    font-size: 1000%;
-    font-weight: 500;
-} */
 .contact-title{
     color: var(--main-green-color);
     font-family: var(--main-font-family);
@@ -18,6 +12,7 @@
     line-height: 98.438%; /* 63px */
     display: flex;
 }
+
 md-filled-text-field{
     background-color:var(--main-white-color) ;
     --md-filled-text-field-container-color: transparent;
@@ -36,5 +31,16 @@ md-filled-text-field{
 md-filled-button{ 
     --md-filled-button-container-color: var(--main-green-color); 
     --md-filled-button-label-text-color: var(--main-white-color); 
+}
+md-dialog{
+    --md-dialog-container-color:var(--main-white-color) ;
+    width: 20%;
+
+}
+#text-fail, #text-ok{
+    font-size: 1.25rem;
+}
+#title-fail, #title-ok{
+    font-size: 2rem;
 }
 
