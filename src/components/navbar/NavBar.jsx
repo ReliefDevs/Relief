@@ -24,11 +24,12 @@ import flagEn from './flags/eeuu.png';
                     <li className=' align-content-center '><a href="#contact">{nav_bar.contact}</a></li>
                 </ul>
             </div>
-            <div className="col-1 d-flex justify-content-end align-content-center">
+            
+            {/* <div className="col-1 d-flex justify-content-end align-content-center">
                 <button className='language ' onClick={() => changeLanguage(language === 'es' ? 'en' : 'es')}>
                     {language === 'es' ?  <img  className="img-language img-fluid"src={flagEs} alt="Español"/> : <img  className="img-language img-fluid" src={flagEn} alt="English"/>}
                 </button>
-            </div>
+            </div> */}
         </div>
 
     

@@ -34,4 +34,9 @@ code {
   body{
     display: none;
   }
+  html{
+    background-image: url("buildingImage.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 }
