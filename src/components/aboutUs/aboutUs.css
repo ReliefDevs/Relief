@@ -13,14 +13,14 @@
     font-weight: 400;
 }
 .about-us-text{
-    font-family: "Roboto Condensed";
+    font-family: var(--main-font-family);
     font-size: 300%;
     font-style: normal;
     font-weight: 300;
 }
 
 .about-us-phrase{
-    font-family: "Roboto Condensed";
+    font-family: var(--main-font-family);
     font-size: 550%;
     font-style: normal;
     font-weight: 300;
@@ -34,7 +34,7 @@
     width: 9%;
 }
 .single, .about-us-bold{
-    font-family: "Roboto Condensed";
+    font-family: var(--main-font-family);
     font-size: 550%;
 }
 .our-team-container{

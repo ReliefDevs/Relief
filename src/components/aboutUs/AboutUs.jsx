@@ -40,7 +40,7 @@ const AboutUs =() =>{
                     
                         <div className="col-4  d-flex justify-content-center">
                             <div className="card ">
-                            <img className="img-fluid images" src={require('./img/tomi.png')} alt="" /> 
+                            <img className="img-fluid images" src={require('./img/joaco.jpeg')} alt="" /> 
                                 <h5 className='card-title text-center mt-2'>Alan Diaz</h5>
                                 <p class="card-text text-center ">CEO - Scrum Master</p> 
                             </div> 

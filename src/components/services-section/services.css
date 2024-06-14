@@ -28,7 +28,7 @@ li, .services-text{
 
 
 .services-web-development-h3, .services-staff-on-demand-h3, .services-ux-ui-h3 {
-    font-family: "Roboto Condensed";
+    font-family: var(--main-font-family);
     font-size: 5.5rem;
     font-style: normal;
     font-weight: 700;

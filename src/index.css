@@ -5,23 +5,21 @@
   --main-green-color: #005C57;
   --main-white-color: #FFFDEF;
   --main-container-padding: 3.125rem;
-  --main-font-family: "Roboto Flex";
+  --main-font-family: "Roboto Condensed";
   --md-sys-color-primary: #005C57;
+  --md-ref-typeface-brand: 'Roboto Condensed';
+  --md-ref-typeface-plain:'Roboto Condensed';
 }
 
 body {
   box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-html {
-  min-width: 1400px;
-  width: fit-content;
+html {  
   caret-color: transparent;
 }
 
