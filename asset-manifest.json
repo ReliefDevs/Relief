@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Relief/static/css/main.0763e7b3.css",
-    "main.js": "/Relief/static/js/main.4542a3fc.js",
+    "main.css": "/Relief/static/css/main.849bf0e8.css",
+    "main.js": "/Relief/static/js/main.e84d5faa.js",
     "static/js/453.2c4082bd.chunk.js": "/Relief/static/js/453.2c4082bd.chunk.js",
     "static/media/aboutus-background.png": "/Relief/static/media/aboutus-background.fe2bd89083c6f676eaf0.png",
     "static/media/servicios-background.png": "/Relief/static/media/servicios-background.fc0e633b4ca601f8936e.png",
@@ -9,20 +9,22 @@
     "static/media/Frame6ss.png": "/Relief/static/media/Frame6ss.31926bd3ad67716e22ca.png",
     "static/media/1000070343.jpeg": "/Relief/static/media/1000070343.7d5f67636272783e73fd.jpeg",
     "static/media/alan.jpg": "/Relief/static/media/alan.e4a0badfb344865c6a3d.jpg",
+    "static/media/buildingImage.png": "/Relief/static/media/buildingImage.10eb8ce15599d40b9a11.png",
     "static/media/g10.png": "/Relief/static/media/g10.d489eeb9c89dff74ffe7.png",
     "static/media/IMG-20240527-WA0033.jpeg": "/Relief/static/media/IMG-20240527-WA0033.aaeef2f6737d6e4c5d60.jpeg",
+    "static/media/joaco.jpeg": "/Relief/static/media/joaco.0c8d7e87a7c020b17d06.jpeg",
     "static/media/Group2.png": "/Relief/static/media/Group2.4f3751a5157a397453d9.png",
     "static/media/Group3.png": "/Relief/static/media/Group3.cbe2adbd71c68c948821.png",
     "static/media/eeuu.png": "/Relief/static/media/eeuu.60c7d34f75799e443d80.png",
     "static/media/Group1.png": "/Relief/static/media/Group1.6e8cac9bfba76ea9fdf2.png",
     "static/media/espana.png": "/Relief/static/media/espana.7ab20088ad372c62ab72.png",
     "index.html": "/Relief/index.html",
-    "main.0763e7b3.css.map": "/Relief/static/css/main.0763e7b3.css.map",
-    "main.4542a3fc.js.map": "/Relief/static/js/main.4542a3fc.js.map",
+    "main.849bf0e8.css.map": "/Relief/static/css/main.849bf0e8.css.map",
+    "main.e84d5faa.js.map": "/Relief/static/js/main.e84d5faa.js.map",
     "453.2c4082bd.chunk.js.map": "/Relief/static/js/453.2c4082bd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0763e7b3.css",
-    "static/js/main.4542a3fc.js"
+    "static/css/main.849bf0e8.css",
+    "static/js/main.e84d5faa.js"
   ]
 }
